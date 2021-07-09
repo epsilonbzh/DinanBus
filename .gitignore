@@ -1,0 +1,10 @@
+#Eclipse stuff
+.settings/
+.classpath
+.project
+
+#Binaries
+bin/
+
+#Main class
+src/Run.java
