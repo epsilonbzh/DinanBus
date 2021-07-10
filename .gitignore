@@ -8,3 +8,6 @@ bin/
 
 #Main class
 src/Run.java
+
+#Javadoc
+doc/
