@@ -85,7 +85,8 @@ public class Line {
 			}
 			//parse
 			String s_numberline = "-1";
-			for(String elem : list) {
+			for(int i = 0; i<list.size(); i++) {
+				String elem = list.get(i);
 				if(elem.startsWith("<Line")){
 					s_numberline = elem.replaceAll("Line", "").replaceAll("linenumber", "").replaceAll("<", "").replaceAll(">", "").replaceAll("=", "").replaceAll("\"", "").replace("/", "").replaceAll(" ", "");
 				}
@@ -93,8 +94,8 @@ public class Line {
 					int count = 1;
 					String name = elem.replaceAll("Stop", "").replaceAll("name", "").replaceAll("<", "").replaceAll(">", "").replaceAll("=", "").replaceAll("\"", "");
 					ArrayList<Integer> stopl = new ArrayList<Integer>();
-					while(!list.get(list.indexOf(elem) + count).equalsIgnoreCase("</Stop>")) {
-						String s_stop = list.get(list.indexOf(elem) + count).replaceAll("Schedule", "").replaceAll("hour", "").replaceAll("<", "").replaceAll(">", "").replaceAll("=", "").replaceAll("\"", "").replace("/", "").replaceAll(" ", "");
+					while(!list.get(i + count).equalsIgnoreCase("</Stop>")) {
+						String s_stop = list.get(i + count).replaceAll("Schedule", "").replaceAll("hour", "").replaceAll("<", "").replaceAll(">", "").replaceAll("=", "").replaceAll("\"", "").replace("/", "").replaceAll(" ", "");
 						stopl.add(Integer.valueOf(s_stop));
 						count++;
 					}
