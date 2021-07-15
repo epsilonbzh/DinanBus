@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>	
 <Line linenumber="1">
-	<StopList start="Bourg Quevert" end="La Nourais">
-		<Stop name="Bourg Quevert">
+	<StopList start="Bourg Quévert" end="La Nourais">
+		<Stop name="Bourg Quévert">
 			<Schedule hour="420"/>
 			<Schedule hour="480"/>
 			<Schedule hour="540"/>
@@ -113,7 +113,7 @@
 			<Schedule hour="1148"/>
 		</Stop>
 		
-		<Stop name="10eme d'Artillerie - Le Labo">
+		<Stop name="10ème d'Artillerie - Le Labo">
 			<Schedule hour="431"/>
 			<Schedule hour="491"/>
 			<Schedule hour="551"/>
@@ -209,7 +209,7 @@
 			<Schedule hour="1157"/>
 		</Stop>
 		
-		<Stop name="Maurice Peigne">
+		<Stop name="Maurice Peigné">
 			<Schedule hour="439"/>
 			<Schedule hour="499"/>
 			<Schedule hour="559"/>
@@ -225,7 +225,7 @@
 			<Schedule hour="1159"/>
 		</Stop>
 		
-		<Stop name="Ecole Mosaique">
+		<Stop name="École Mosaïque">
 			<Schedule hour="440"/>
 			<Schedule hour="500"/>
 			<Schedule hour="560"/>
@@ -257,7 +257,7 @@
 			<Schedule hour="1161"/>
 		</Stop>
 		
-		<Stop name="Iles Bretonnes 2">
+		<Stop name="Îles Bretonnes 2">
 			<Schedule hour="442"/>
 			<Schedule hour="502"/>
 			<Schedule hour="562"/>
@@ -273,7 +273,7 @@
 			<Schedule hour="1162"/>
 		</Stop>
 		
-		<Stop name="Iles Bretonnes 1">
+		<Stop name="Îles Bretonnes 1">
 			<Schedule hour="443"/>
 			<Schedule hour="503"/>
 			<Schedule hour="563"/>

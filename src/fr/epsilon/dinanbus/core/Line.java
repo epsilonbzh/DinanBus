@@ -64,7 +64,7 @@ public class Line {
 		ArrayList<Stop> stoplist = new ArrayList<Stop>();
 		try {
 			File file = new File(filepath);
-			BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
+			BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
 			String line;
 			String content = null;
 			//read file
