@@ -34,7 +34,7 @@ public class Line {
 	 */
 	private ArrayList<Stop> stop_list_reverse;
 	/**
-	 * Create a line objetct manually with a number and list of Stops
+	 * Create a line object manually with a number and list of Stops
 	 * @param number the number of the line
 	 * @param stop_list list of stops in the line
 	 * @see #number
@@ -47,6 +47,25 @@ public class Line {
 			this.stop_list_reverse = new ArrayList<Stop>();
 		}else {
 			throw new IllegalArgumentException("Stop list can't be empty or null");
+		}
+	}
+	
+	/**
+	 * Create a two-way line object manually with a number and two lists in both directions
+	 * @param number the number of the line
+	 * @param stop_list list of stops in a way
+	 * @param stop_list_reverse list of stops in the other way
+	 * @see #number
+	 * @see #stop_list
+	 * @see #stop_list_reverse
+	 */
+	public Line(int number, ArrayList<Stop> stop_list,ArrayList<Stop> stop_list_reverse) {
+		this.number = Math.abs(number);
+		if(stop_list != null && stop_list.size() > 0 && stop_list_reverse != null && stop_list_reverse.size() > 0) {
+			this.stop_list = stop_list;
+			this.stop_list_reverse = stop_list_reverse;
+		}else {
+			throw new IllegalArgumentException("Stop lists can't be empty or null");
 		}
 	}
 	/**
