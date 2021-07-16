@@ -321,4 +321,310 @@
 			<Schedule hour="1166"/>
 		</Stop>
 	</StopList>
+	
+	<StopList start="La Nourais" end="Bourg Quévert">
+		<Stop name="La Nourais">
+			<Schedule hour="449"/>
+			<Schedule hour="509"/>
+			<Schedule hour="569"/>
+			<Schedule hour="629"/>
+			<Schedule hour="689"/>
+			<Schedule hour="749"/>
+			<Schedule hour="809"/>
+			<Schedule hour="869"/>
+			<Schedule hour="929"/>
+			<Schedule hour="989"/>
+			<Schedule hour="1049"/>
+			<Schedule hour="1109"/>
+			<Schedule hour="1169"/>
+		</Stop>
+			
+		<Stop name="Petites Landes">
+			<Schedule hour="450"/>
+			<Schedule hour="510"/>
+			<Schedule hour="570"/>
+			<Schedule hour="630"/>
+			<Schedule hour="690"/>
+			<Schedule hour="750"/>
+			<Schedule hour="810"/>
+			<Schedule hour="870"/>
+			<Schedule hour="930"/>
+			<Schedule hour="990"/>
+			<Schedule hour="1050"/>
+			<Schedule hour="1110"/>
+			<Schedule hour="1170"/>
+		</Stop>
+			
+		<Stop name="Îles Bretonnes 1">
+			<Schedule hour="451"/>
+			<Schedule hour="511"/>
+			<Schedule hour="571"/>
+			<Schedule hour="631"/>
+			<Schedule hour="691"/>
+			<Schedule hour="751"/>
+			<Schedule hour="811"/>
+			<Schedule hour="871"/>
+			<Schedule hour="931"/>
+			<Schedule hour="991"/>
+			<Schedule hour="1051"/>
+			<Schedule hour="1111"/>
+			<Schedule hour="1171"/>
+		</Stop>
+		
+		<Stop name="Îles Bretonnes 2">
+			<Schedule hour="452"/>
+			<Schedule hour="512"/>
+			<Schedule hour="572"/>
+			<Schedule hour="632"/>
+			<Schedule hour="692"/>
+			<Schedule hour="752"/>
+			<Schedule hour="812"/>
+			<Schedule hour="872"/>
+			<Schedule hour="932"/>
+			<Schedule hour="992"/>
+			<Schedule hour="1052"/>
+			<Schedule hour="1112"/>
+			<Schedule hour="1172"/>
+		</Stop>
+		
+		<Stop name="Guinefort">
+			<Schedule hour="453"/>
+			<Schedule hour="513"/>
+			<Schedule hour="573"/>
+			<Schedule hour="633"/>
+			<Schedule hour="693"/>
+			<Schedule hour="753"/>
+			<Schedule hour="813"/>
+			<Schedule hour="873"/>
+			<Schedule hour="933"/>
+			<Schedule hour="993"/>
+			<Schedule hour="1053"/>
+			<Schedule hour="1113"/>
+			<Schedule hour="1173"/>
+		</Stop>
+			
+		<Stop name="École Mosaïque">
+			<Schedule hour="454"/>
+			<Schedule hour="514"/>
+			<Schedule hour="574"/>
+			<Schedule hour="634"/>
+			<Schedule hour="694"/>
+			<Schedule hour="754"/>
+			<Schedule hour="814"/>
+			<Schedule hour="874"/>
+			<Schedule hour="934"/>
+			<Schedule hour="994"/>
+			<Schedule hour="1054"/>
+			<Schedule hour="1114"/>
+			<Schedule hour="1174"/>
+		</Stop>
+			
+		<Stop name="Maurice Peigné">
+			<Schedule hour="455"/>
+			<Schedule hour="515"/>
+			<Schedule hour="575"/>
+			<Schedule hour="635"/>
+			<Schedule hour="695"/>
+			<Schedule hour="755"/>
+			<Schedule hour="815"/>
+			<Schedule hour="875"/>
+			<Schedule hour="935"/>
+			<Schedule hour="995"/>
+			<Schedule hour="1055"/>
+			<Schedule hour="1115"/>
+			<Schedule hour="1175"/>
+		</Stop>
+			
+		<Stop name="Hippodrome">
+			<Schedule hour="456"/>
+			<Schedule hour="516"/>
+			<Schedule hour="576"/>
+			<Schedule hour="636"/>
+			<Schedule hour="696"/>
+			<Schedule hour="756"/>
+			<Schedule hour="816"/>
+			<Schedule hour="876"/>
+			<Schedule hour="936"/>
+			<Schedule hour="996"/>
+			<Schedule hour="1056"/>
+			<Schedule hour="1116"/>
+			<Schedule hour="1176"/>
+		</Stop>
+			
+		<Stop name="Aublette">
+			<Schedule hour="458"/>
+			<Schedule hour="518"/>
+			<Schedule hour="578"/>
+			<Schedule hour="638"/>
+			<Schedule hour="698"/>
+			<Schedule hour="758"/>
+			<Schedule hour="818"/>
+			<Schedule hour="878"/>
+			<Schedule hour="938"/>
+			<Schedule hour="998"/>
+			<Schedule hour="1058"/>
+			<Schedule hour="1118"/>
+			<Schedule hour="1178"/>
+		</Stop>
+			
+		<Stop name="Printanier">
+			<Schedule hour="459"/>
+			<Schedule hour="519"/>
+			<Schedule hour="579"/>
+			<Schedule hour="639"/>
+			<Schedule hour="699"/>
+			<Schedule hour="759"/>
+			<Schedule hour="819"/>
+			<Schedule hour="879"/>
+			<Schedule hour="939"/>
+			<Schedule hour="999"/>
+			<Schedule hour="1059"/>
+			<Schedule hour="1119"/>
+			<Schedule hour="1179"/>
+		</Stop>
+			
+		<Stop name="Bois Joly">
+			<Schedule hour="460"/>
+			<Schedule hour="520"/>
+			<Schedule hour="580"/>
+			<Schedule hour="640"/>
+			<Schedule hour="700"/>
+			<Schedule hour="760"/>
+			<Schedule hour="820"/>
+			<Schedule hour="880"/>
+			<Schedule hour="940"/>
+			<Schedule hour="1000"/>
+			<Schedule hour="1060"/>
+			<Schedule hour="1120"/>
+			<Schedule hour="1180"/>
+		</Stop>
+			
+		<Stop name="Sainte-Anne">
+			<Schedule hour="461"/>
+			<Schedule hour="521"/>
+			<Schedule hour="581"/>
+			<Schedule hour="641"/>
+			<Schedule hour="701"/>
+			<Schedule hour="761"/>
+			<Schedule hour="821"/>
+			<Schedule hour="881"/>
+			<Schedule hour="941"/>
+			<Schedule hour="1001"/>
+			<Schedule hour="1061"/>
+			<Schedule hour="1121"/>
+			<Schedule hour="1181"/>
+		</Stop>
+		
+		<Stop name="Simone Veil">
+			<Schedule hour="462"/>
+			<Schedule hour="522"/>
+			<Schedule hour="582"/>
+			<Schedule hour="642"/>
+			<Schedule hour="702"/>
+			<Schedule hour="762"/>
+			<Schedule hour="822"/>
+			<Schedule hour="882"/>
+			<Schedule hour="942"/>
+			<Schedule hour="1002"/>
+			<Schedule hour="1062"/>
+			<Schedule hour="1122"/>
+			<Schedule hour="1182"/>
+		</Stop>
+			
+		<Stop name="Gare SNCF">
+			<Schedule hour="466"/>
+			<Schedule hour="526"/>
+			<Schedule hour="586"/>
+			<Schedule hour="646"/>
+			<Schedule hour="706"/>
+			<Schedule hour="766"/>
+			<Schedule hour="826"/>
+			<Schedule hour="886"/>
+			<Schedule hour="946"/>
+			<Schedule hour="1006"/>
+			<Schedule hour="1066"/>
+			<Schedule hour="1126"/>
+			<Schedule hour="1186"/>
+		</Stop>
+			
+		<Stop name="Stade">
+			<Schedule hour="467"/>
+			<Schedule hour="527"/>
+			<Schedule hour="587"/>
+			<Schedule hour="647"/>
+			<Schedule hour="707"/>
+			<Schedule hour="767"/>
+			<Schedule hour="827"/>
+			<Schedule hour="887"/>
+			<Schedule hour="947"/>
+			<Schedule hour="1007"/>
+			<Schedule hour="1067"/>
+			<Schedule hour="1127"/>
+			<Schedule hour="1187"/>
+		</Stop>
+			
+		<Stop name="Violette / Poulichot">
+			<Schedule hour="468"/>
+			<Schedule hour="528"/>
+			<Schedule hour="588"/>
+			<Schedule hour="648"/>
+			<Schedule hour="708"/>
+			<Schedule hour="768"/>
+			<Schedule hour="828"/>
+			<Schedule hour="888"/>
+			<Schedule hour="948"/>
+			<Schedule hour="1008"/>
+			<Schedule hour="1068"/>
+			<Schedule hour="1128"/>
+			<Schedule hour="1188"/>
+		</Stop>
+			
+		<Stop name="Violette">
+			<Schedule hour="472"/>
+			<Schedule hour="532"/>
+			<Schedule hour="592"/>
+			<Schedule hour="652"/>
+			<Schedule hour="712"/>
+			<Schedule hour="772"/>
+			<Schedule hour="832"/>
+			<Schedule hour="892"/>
+			<Schedule hour="952"/>
+			<Schedule hour="1012"/>
+			<Schedule hour="1072"/>
+			<Schedule hour="1132"/>
+			<Schedule hour="1192"/>
+		</Stop>
+		
+		<Stop name="La Croix Verte">
+			<Schedule hour="474"/>
+			<Schedule hour="534"/>
+			<Schedule hour="594"/>
+			<Schedule hour="654"/>
+			<Schedule hour="714"/>
+			<Schedule hour="774"/>
+			<Schedule hour="834"/>
+			<Schedule hour="894"/>
+			<Schedule hour="954"/>
+			<Schedule hour="1014"/>
+			<Schedule hour="1074"/>
+			<Schedule hour="1134"/>
+			<Schedule hour="1194"/>
+		</Stop>
+		
+		<Stop name="Bourg Quévert">
+			<Schedule hour="475"/>
+			<Schedule hour="535"/>
+			<Schedule hour="595"/>
+			<Schedule hour="655"/>
+			<Schedule hour="715"/>
+			<Schedule hour="775"/>
+			<Schedule hour="835"/>
+			<Schedule hour="895"/>
+			<Schedule hour="955"/>
+			<Schedule hour="1015"/>
+			<Schedule hour="1075"/>
+			<Schedule hour="1135"/>
+			<Schedule hour="1195"/>
+		</Stop>
+	</StopList>
 </Line>

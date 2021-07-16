@@ -28,6 +28,12 @@ public class Line {
 	 */
 	private ArrayList<Stop> stop_list;
 	/**
+	 * List of all the stops served
+	 * when the bus goes the other way.
+	 * @see Stop
+	 */
+	private ArrayList<Stop> stop_list_reverse;
+	/**
 	 * Create a line objetct manually with a number and list of Stops
 	 * @param number the number of the line
 	 * @param stop_list list of stops in the line
@@ -38,6 +44,7 @@ public class Line {
 		this.number = Math.abs(number);
 		if(stop_list != null && stop_list.size() > 0) {
 			this.stop_list = stop_list;
+			this.stop_list_reverse = new ArrayList<Stop>();
 		}else {
 			throw new IllegalArgumentException("Stop list can't be empty or null");
 		}
@@ -61,7 +68,10 @@ public class Line {
 	 */
 	private void parseXMLFile(String filepath) {
 		int linenumber;
+		ArrayList<Stop> currentlist;
 		ArrayList<Stop> stoplist = new ArrayList<Stop>();
+		ArrayList<Stop> stoplist_reverse = new ArrayList<Stop>();
+		currentlist = stoplist;
 		try {
 			File file = new File(filepath);
 			BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
@@ -99,7 +109,10 @@ public class Line {
 						stopl.add(Integer.valueOf(s_stop));
 						count++;
 					}
-					stoplist.add(new Stop(name, stopl));
+					currentlist.add(new Stop(name, stopl));
+				}
+				if(elem.startsWith("</StopList>")) {
+					currentlist = stoplist_reverse;
 				}
 			}
 			linenumber = Integer.valueOf(s_numberline);
@@ -111,6 +124,7 @@ public class Line {
 		
 		this.number = linenumber;
 		this.stop_list = stoplist;
+		this.stop_list_reverse = stoplist_reverse;
 	}
 	/**
 	 * Get a stop by index
@@ -129,8 +143,20 @@ public class Line {
 	@Override
 	public String toString() {
 		String message = "Line number : " + this.number;
+		//tell the direction if there is a reverse line
+		if(this.stop_list_reverse.size() != 0) {
+			message = message + "\nTOWARD" + stop_list.get(stop_list.size() - 1).getName().toUpperCase() + " :";
+		}
+		//print main line
 		for(Stop s : this.stop_list) {
 			message = message + "\n\t" + s.toString();
+		}
+		//print reverse line if exist
+		if(this.stop_list_reverse.size() != 0) {
+			message = message + "\nTOWARD" + stop_list_reverse.get(stop_list_reverse.size() - 1).getName().toUpperCase() + " :";
+			for(Stop s : this.stop_list_reverse) {
+				message = message + "\n\t" + s.toString();
+			}
 		}
 		return message;
 	}
