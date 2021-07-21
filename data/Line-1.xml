@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>	
 <Line linenumber="1">
 	<StopList start="Bourg Quévert" end="La Nourais">
-		<Stop name="Bourg Quévert">
+		<Stop name="Bourg Quévert" lat="48.4653152" lon="-2.0864904">
 			<Schedule hour="420"/>
 			<Schedule hour="480"/>
 			<Schedule hour="540"/>
@@ -17,7 +17,7 @@
 			<Schedule hour="1140"/>
 		</Stop>
 		
-		<Stop name="La Croix Verte">
+		<Stop name="La Croix Verte" lat="48.4653223" lon="-2.0864904">
 			<Schedule hour="421"/>
 			<Schedule hour="481"/>
 			<Schedule hour="541"/>
@@ -33,7 +33,7 @@
 			<Schedule hour="1141"/>
 		</Stop>
 		
-		<Stop name="Violette">
+		<Stop name="Violette" lat="48.4612227" lon="-2.0653559">
 			<Schedule hour="423"/>
 			<Schedule hour="483"/>
 			<Schedule hour="543"/>
@@ -49,7 +49,7 @@
 			<Schedule hour="1143"/>
 		</Stop>
 		
-		<Stop name="Violette / Poulichot">
+		<Stop name="Violette / Poulichot" lat="48.4606317" lon="-2.0589012">
 			<Schedule hour="424"/>
 			<Schedule hour="484"/>
 			<Schedule hour="544"/>
@@ -65,7 +65,7 @@
 			<Schedule hour="1144"/>
 		</Stop>
 		
-		<Stop name="Stade">
+		<Stop name="Stade" lat="48.4589975" lon="-2.0559145">
 			<Schedule hour="425"/>
 			<Schedule hour="485"/>
 			<Schedule hour="545"/>
@@ -81,7 +81,7 @@
 			<Schedule hour="1145"/>
 		</Stop>
 		
-		<Stop name="Gare SNCF">
+		<Stop name="Gare SNCF" lat="48.4565909" lon="-2.0524975">
 			<Schedule hour="426"/>
 			<Schedule hour="486"/>
 			<Schedule hour="546"/>
@@ -97,7 +97,7 @@
 			<Schedule hour="1146"/>
 		</Stop>
 		
-		<Stop name="Deroyer">
+		<Stop name="Deroyer" lat="48.4564544" lon="-2.0558378">
 			<Schedule hour="428"/>
 			<Schedule hour="488"/>
 			<Schedule hour="548"/>
@@ -113,7 +113,7 @@
 			<Schedule hour="1148"/>
 		</Stop>
 		
-		<Stop name="10ème d'Artillerie - Le Labo">
+		<Stop name="10ème d'Artillerie - Le Labo" lat="48.4542446" lon="-2.0596401">
 			<Schedule hour="431"/>
 			<Schedule hour="491"/>
 			<Schedule hour="551"/>
@@ -129,7 +129,7 @@
 			<Schedule hour="1151"/>
 		</Stop>
 		
-		<Stop name="Sainte-Anne">
+		<Stop name="Sainte-Anne" lat="48.4542084" lon="-2.0667970">
 			<Schedule hour="432"/>
 			<Schedule hour="492"/>
 			<Schedule hour="552"/>
@@ -145,7 +145,7 @@
 			<Schedule hour="1152"/>
 		</Stop>
 		
-		<Stop name="Bois Joly">
+		<Stop name="Bois Joly" lat="48.4499840" lon="-2.0772368">
 			<Schedule hour="433"/>
 			<Schedule hour="493"/>
 			<Schedule hour="553"/>
@@ -161,7 +161,7 @@
 			<Schedule hour="1153"/>
 		</Stop>
 		
-		<Stop name="Printanier">
+		<Stop name="Printanier" lat="48.4485846" lon="-2.0837208">
 			<Schedule hour="434"/>
 			<Schedule hour="494"/>
 			<Schedule hour="554"/>
@@ -177,7 +177,7 @@
 			<Schedule hour="1154"/>
 		</Stop>
 		
-		<Stop name="Aublette">
+		<Stop name="Aublette" lat="48.4473008" lon="-2.0876144">
 			<Schedule hour="435"/>
 			<Schedule hour="495"/>
 			<Schedule hour="555"/>
@@ -193,7 +193,7 @@
 			<Schedule hour="1155"/>
 		</Stop>
 		
-		<Stop name="Hippodrome">
+		<Stop name="Hippodrome" lat="48.4472682" lon="-2.0832181">
 			<Schedule hour="437"/>
 			<Schedule hour="497"/>
 			<Schedule hour="557"/>
@@ -209,7 +209,7 @@
 			<Schedule hour="1157"/>
 		</Stop>
 		
-		<Stop name="Maurice Peigné">
+		<Stop name="Maurice Peigné" lat="48.4444761" lon="-2.0756472">
 			<Schedule hour="439"/>
 			<Schedule hour="499"/>
 			<Schedule hour="559"/>
@@ -225,7 +225,7 @@
 			<Schedule hour="1159"/>
 		</Stop>
 		
-		<Stop name="École Mosaïque">
+		<Stop name="École Mosaïque" lat="48.4440254" lon="-2.0719898">
 			<Schedule hour="440"/>
 			<Schedule hour="500"/>
 			<Schedule hour="560"/>
@@ -241,7 +241,7 @@
 			<Schedule hour="1160"/>
 		</Stop>
 		
-		<Stop name="Guinefort">
+		<Stop name="Guinefort" lat="48.4394966" lon="-2.0721375">
 			<Schedule hour="441"/>
 			<Schedule hour="501"/>
 			<Schedule hour="561"/>
@@ -257,7 +257,7 @@
 			<Schedule hour="1161"/>
 		</Stop>
 		
-		<Stop name="Îles Bretonnes 2">
+		<Stop name="Îles Bretonnes 2" lat="48.4366273" lon="-2.0706047">
 			<Schedule hour="442"/>
 			<Schedule hour="502"/>
 			<Schedule hour="562"/>
@@ -273,7 +273,7 @@
 			<Schedule hour="1162"/>
 		</Stop>
 		
-		<Stop name="Îles Bretonnes 1">
+		<Stop name="Îles Bretonnes 1" lat="48.4353896" lon="-2.0669770">
 			<Schedule hour="443"/>
 			<Schedule hour="503"/>
 			<Schedule hour="563"/>
@@ -289,7 +289,7 @@
 			<Schedule hour="1163"/>
 		</Stop>
 		
-		<Stop name="Petites Landes">
+		<Stop name="Petites Landes" lat="48.4350070" lon="-2.0643672">
 			<Schedule hour="444"/>
 			<Schedule hour="504"/>
 			<Schedule hour="564"/>
@@ -305,7 +305,7 @@
 			<Schedule hour="1164"/>
 		</Stop>
 		
-		<Stop name="La Nourais">
+		<Stop name="La Nourais" lat="48.4358665" lon="-2.0562164">
 			<Schedule hour="446"/>
 			<Schedule hour="506"/>
 			<Schedule hour="566"/>
@@ -323,7 +323,7 @@
 	</StopList>
 	
 	<StopList start="La Nourais" end="Bourg Quévert">
-		<Stop name="La Nourais">
+		<Stop name="La Nourais" lat="48.4358665" lon="-2.0562164">
 			<Schedule hour="449"/>
 			<Schedule hour="509"/>
 			<Schedule hour="569"/>
@@ -339,7 +339,7 @@
 			<Schedule hour="1169"/>
 		</Stop>
 			
-		<Stop name="Petites Landes">
+		<Stop name="Petites Landes" lat="48.4350803" lon="-2.0643987">
 			<Schedule hour="450"/>
 			<Schedule hour="510"/>
 			<Schedule hour="570"/>
@@ -355,7 +355,7 @@
 			<Schedule hour="1170"/>
 		</Stop>
 			
-		<Stop name="Îles Bretonnes 1">
+		<Stop name="Îles Bretonnes 1" lat="48.4354477" lon="-2.0668731">
 			<Schedule hour="451"/>
 			<Schedule hour="511"/>
 			<Schedule hour="571"/>
@@ -371,7 +371,7 @@
 			<Schedule hour="1171"/>
 		</Stop>
 		
-		<Stop name="Îles Bretonnes 2">
+		<Stop name="Îles Bretonnes 2" lat="48.4366928" lon="-2.0705271">
 			<Schedule hour="452"/>
 			<Schedule hour="512"/>
 			<Schedule hour="572"/>
@@ -387,7 +387,7 @@
 			<Schedule hour="1172"/>
 		</Stop>
 		
-		<Stop name="Guinefort">
+		<Stop name="Guinefort" lat="48.4394614" lon="-2.0720135">
 			<Schedule hour="453"/>
 			<Schedule hour="513"/>
 			<Schedule hour="573"/>
@@ -403,7 +403,7 @@
 			<Schedule hour="1173"/>
 		</Stop>
 			
-		<Stop name="École Mosaïque">
+		<Stop name="École Mosaïque" lat="48.4441069" lon="-2.0721430">
 			<Schedule hour="454"/>
 			<Schedule hour="514"/>
 			<Schedule hour="574"/>
@@ -419,7 +419,7 @@
 			<Schedule hour="1174"/>
 		</Stop>
 			
-		<Stop name="Maurice Peigné">
+		<Stop name="Maurice Peigné" lat="48.4445315" lon="-2.0755836">
 			<Schedule hour="455"/>
 			<Schedule hour="515"/>
 			<Schedule hour="575"/>
@@ -435,7 +435,7 @@
 			<Schedule hour="1175"/>
 		</Stop>
 			
-		<Stop name="Hippodrome">
+		<Stop name="Hippodrome" lat="48.4473103" lon="-2.0831625">
 			<Schedule hour="456"/>
 			<Schedule hour="516"/>
 			<Schedule hour="576"/>
@@ -451,7 +451,7 @@
 			<Schedule hour="1176"/>
 		</Stop>
 			
-		<Stop name="Aublette">
+		<Stop name="Aublette" lat="48.4473008" lon="-2.0876144">
 			<Schedule hour="458"/>
 			<Schedule hour="518"/>
 			<Schedule hour="578"/>
@@ -467,7 +467,7 @@
 			<Schedule hour="1178"/>
 		</Stop>
 			
-		<Stop name="Printanier">
+		<Stop name="Printanier" lat="48.4487267" lon="-2.0829770">
 			<Schedule hour="459"/>
 			<Schedule hour="519"/>
 			<Schedule hour="579"/>
@@ -483,7 +483,7 @@
 			<Schedule hour="1179"/>
 		</Stop>
 			
-		<Stop name="Bois Joly">
+		<Stop name="Bois Joly" lat="48.4499002" lon="-2.0770962">
 			<Schedule hour="460"/>
 			<Schedule hour="520"/>
 			<Schedule hour="580"/>
@@ -499,7 +499,7 @@
 			<Schedule hour="1180"/>
 		</Stop>
 			
-		<Stop name="Sainte-Anne">
+		<Stop name="Sainte-Anne" lat="48.4543531" lon="-2.0662773">
 			<Schedule hour="461"/>
 			<Schedule hour="521"/>
 			<Schedule hour="581"/>
@@ -515,7 +515,7 @@
 			<Schedule hour="1181"/>
 		</Stop>
 		
-		<Stop name="Simone Veil">
+		<Stop name="Simone Veil" lat="48.4555076" lon="-2.0577465">
 			<Schedule hour="462"/>
 			<Schedule hour="522"/>
 			<Schedule hour="582"/>
@@ -531,7 +531,7 @@
 			<Schedule hour="1182"/>
 		</Stop>
 			
-		<Stop name="Gare SNCF">
+		<Stop name="Gare SNCF" lat="48.4565909" lon="-2.0524975">
 			<Schedule hour="466"/>
 			<Schedule hour="526"/>
 			<Schedule hour="586"/>
@@ -547,7 +547,7 @@
 			<Schedule hour="1186"/>
 		</Stop>
 			
-		<Stop name="Stade">
+		<Stop name="Stade" lat="48.4590563" lon="-2.0558046">
 			<Schedule hour="467"/>
 			<Schedule hour="527"/>
 			<Schedule hour="587"/>
@@ -563,7 +563,7 @@
 			<Schedule hour="1187"/>
 		</Stop>
 			
-		<Stop name="Violette / Poulichot">
+		<Stop name="Violette / Poulichot" lat="48.4607749" lon="-2.0590977">
 			<Schedule hour="468"/>
 			<Schedule hour="528"/>
 			<Schedule hour="588"/>
@@ -579,7 +579,7 @@
 			<Schedule hour="1188"/>
 		</Stop>
 			
-		<Stop name="Violette">
+		<Stop name="Violette" lat="48.4613152" lon="-2.0652218">
 			<Schedule hour="472"/>
 			<Schedule hour="532"/>
 			<Schedule hour="592"/>
@@ -595,7 +595,7 @@
 			<Schedule hour="1192"/>
 		</Stop>
 		
-		<Stop name="La Croix Verte">
+		<Stop name="La Croix Verte" lat="48.4654077" lon="-2.0787066">
 			<Schedule hour="474"/>
 			<Schedule hour="534"/>
 			<Schedule hour="594"/>
@@ -611,7 +611,7 @@
 			<Schedule hour="1194"/>
 		</Stop>
 		
-		<Stop name="Bourg Quévert">
+		<Stop name="Bourg Quévert" lat="48.4654032" lon="-2.0863791">
 			<Schedule hour="475"/>
 			<Schedule hour="535"/>
 			<Schedule hour="595"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>	
 <Line linenumber="2">
 	<StopList start="Deroyer" end="Deroyer">
-		<Stop name="Deroyer">
+		<Stop name="Deroyer" lat="48.4564544" lon="-2.0558378">
 			<Schedule hour="430"/>
 			<Schedule hour="460"/>
 			<Schedule hour="490"/>
@@ -30,7 +30,7 @@
 			<Schedule hour="1180"/>
 		</Stop>
 		
-		<Stop name="Gare SNCF">
+		<Stop name="Gare SNCF" lat="48.4565909" lon="-2.0524975">
 			<Schedule hour="431"/>
 			<Schedule hour="461"/>
 			<Schedule hour="491"/>
@@ -59,7 +59,7 @@
 			<Schedule hour="1181"/>
 		</Stop>
 		
-		<Stop name="Carnot">
+		<Stop name="Carnot" lat="48.4562258" lon="-2.0497863">
 			<Schedule hour="432"/>
 			<Schedule hour="462"/>
 			<Schedule hour="492"/>
@@ -88,7 +88,7 @@
 			<Schedule hour="1182"/>
 		</Stop>
 		
-		<Stop name="Porte Saint-Malo">
+		<Stop name="Porte Saint-Malo" lat="48.4569174" lon="-2.0431383">
 			<Schedule hour="433"/>
 			<Schedule hour="463"/>
 			<Schedule hour="493"/>
@@ -117,7 +117,7 @@
 			<Schedule hour="1183"/>
 		</Stop>
 		
-		<Stop name="H.Laplanche">
+		<Stop name="H.Laplanche" lat="48.4582841" lon="-2.0444241">
 			<Schedule hour="434"/>
 			<Schedule hour="464"/>
 			<Schedule hour="494"/>
@@ -146,7 +146,7 @@
 			<Schedule hour="1184"/>
 		</Stop>
 		
-		<Stop name="18 Juin">
+		<Stop name="18 Juin" lat="48.4598968" lon="-2.0442007">
 			<Schedule hour="436"/>
 			<Schedule hour="466"/>
 			<Schedule hour="496"/>
@@ -175,7 +175,7 @@
 			<Schedule hour="1186"/>
 		</Stop>
 		
-		<Stop name="Gendarmerie">
+		<Stop name="Gendarmerie" lat="48.4598223" lon="-2.0473456">
 			<Schedule hour="437"/>
 			<Schedule hour="467"/>
 			<Schedule hour="497"/>
@@ -204,7 +204,7 @@
 			<Schedule hour="1187"/>
 		</Stop>
 		
-		<Stop name="André Aubert">
+		<Stop name="André Aubert" lat="48.4604289" lon="-2.0468831">
 			<Schedule hour="438"/>
 			<Schedule hour="468"/>
 			<Schedule hour="498"/>
@@ -233,7 +233,7 @@
 			<Schedule hour="1188"/>
 		</Stop>
 		
-		<Stop name="Emile Pédron">
+		<Stop name="Emile Pédron" lat="48.4619458" lon="-2.0424867">
 			<Schedule hour="439"/>
 			<Schedule hour="469"/>
 			<Schedule hour="499"/>
@@ -262,7 +262,7 @@
 			<Schedule hour="1189"/>
 		</Stop>
 		
-		<Stop name="Exmouth">
+		<Stop name="Exmouth" lat="48.4608106" lon="-2.0395914">
 			<Schedule hour="441"/>
 			<Schedule hour="471"/>
 			<Schedule hour="501"/>
@@ -291,7 +291,7 @@
 			<Schedule hour="1191"/>
 		</Stop>
 		
-		<Stop name="Ecuyer">
+		<Stop name="Ecuyer" lat="48.4641905" lon="-2.0387886">
 			<Schedule hour="445"/>
 			<Schedule hour="475"/>
 			<Schedule hour="505"/>
@@ -320,7 +320,7 @@
 			<Schedule hour="1195"/>
 		</Stop>
 		
-		<Stop name="Le Connétable">
+		<Stop name="Le Connétable" lat="48.4657966" lon="-2.0387759">
 			<Schedule hour="446"/>
 			<Schedule hour="476"/>
 			<Schedule hour="506"/>
@@ -349,7 +349,7 @@
 			<Schedule hour="1196"/>
 		</Stop>
 		
-		<Stop name="Pont Louis Martin">
+		<Stop name="Pont Louis Martin" lat="48.4648680" lon="-2.0414276">
 			<Schedule hour="447"/>
 			<Schedule hour="477"/>
 			<Schedule hour="507"/>
@@ -378,7 +378,7 @@
 			<Schedule hour="1197"/>
 		</Stop>
 		
-		<Stop name="BNP (La Conninais)">
+		<Stop name="BNP (La Conninais)" lat="48.4632408" lon="-2.0452809">
 			<Schedule hour="448"/>
 			<Schedule hour="478"/>
 			<Schedule hour="508"/>
@@ -407,7 +407,7 @@
 			<Schedule hour="1198"/>
 		</Stop>
 		
-		<Stop name="Cinéma">
+		<Stop name="Cinéma" lat="48.4603264" lon="-2.0483652">
 			<Schedule hour="449"/>
 			<Schedule hour="479"/>
 			<Schedule hour="509"/>
@@ -436,7 +436,7 @@
 			<Schedule hour="1199"/>
 		</Stop>
 		
-		<Stop name="Cimetière">
+		<Stop name="Cimetière" lat="48.4588527" lon="-2.0499953">
 			<Schedule hour="450"/>
 			<Schedule hour="480"/>
 			<Schedule hour="510"/>
@@ -465,7 +465,7 @@
 			<Schedule hour="1200"/>
 		</Stop>
 		
-		<Stop name="Gambetta - atelier 5 bis">
+		<Stop name="Gambetta - atelier 5 bis" lat="48.4572723" lon="-2.0491904">
 			<Schedule hour="451"/>
 			<Schedule hour="481"/>
 			<Schedule hour="511"/>
@@ -494,7 +494,7 @@
 			<Schedule hour="1201"/>
 		</Stop>
 		
-		<Stop name="Leclerc">
+		<Stop name="Leclerc" lat="48.4563490" lon="-2.0500627">
 			<Schedule hour="453"/>
 			<Schedule hour="483"/>
 			<Schedule hour="513"/>
@@ -523,7 +523,7 @@
 			<Schedule hour="1203"/>
 		</Stop>
 		
-		<Stop name="Gare SNCF">
+		<Stop name="Gare SNCF" lat="48.4566087" lon="-2.0519301">
 			<Schedule hour="454"/>
 			<Schedule hour="484"/>
 			<Schedule hour="514"/>
@@ -552,7 +552,7 @@
 			<Schedule hour="1204"/>
 		</Stop>
 		
-		<Stop name="Deroyer">
+		<Stop name="Deroyer" lat="48.4564544" lon="-2.0558378">
 			<Schedule hour="455"/>
 			<Schedule hour="485"/>
 			<Schedule hour="515"/>

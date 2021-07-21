@@ -13,24 +13,40 @@ public class Stop {
 	 */
 	private String name;
 	/**
+	 * Latitude coordinates
+	 */
+	private double lat;
+	/**
+	 * Longitude coordinates
+	 */
+	private double lon;
+	/**
 	 * list containing the arrival times of the bus stop
 	 * The time must be in minutes
 	 * Example: 7h20 = 440 min
 	 */
 	private ArrayList<Integer> schedule_list;
 	/**
-	 * Create a Stop with the name, and the list of bus station
+	 * Create a Stop with the name, latitude, longitude, and the list of bus station
 	 * @param name name of the stop
+	 * @param lat latitude of the stop
+	 * @param lon longitude of the stop
 	 * @param schedule_list intergers list containing eatch times the bus stop at the station
 	 * @see #name
+	 * @see #lat
+	 * @see #lon
 	 * @see #schedule_list
 	 */
-	public Stop(String name, ArrayList<Integer> schedule_list) {
+	public Stop(String name, double lat, double lon,ArrayList<Integer> schedule_list) {
 		if(name != null && name.length() > 0) {
 			this.name = name;
 		}else {
 			throw new IllegalArgumentException("Stop name can't be empty or null");
 		}
+		
+		this.lat = lat;
+		this.lon = lon;
+		
 		if(schedule_list != null && schedule_list.size() > 0) {
 			this.schedule_list = schedule_list;
 		}else {
@@ -44,6 +60,22 @@ public class Stop {
 	 */
 	public String getName() {
 		return this.name;
+	}
+	/**
+	 * Get the station's Latitude
+	 * @return latitude
+	 * @see #lat
+	 */
+	public double getLat() {
+		return this.lat;
+	}
+	/**
+	 * Get the station's Longitude
+	 * @return longitude
+	 * @see #lon
+	 */
+	public double getLon() {
+		return this.lon;
 	}
 	/**
 	 * Get schedules

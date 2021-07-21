@@ -120,15 +120,29 @@ public class Line {
 					s_numberline = elem.replaceAll("Line", "").replaceAll("linenumber", "").replaceAll("<", "").replaceAll(">", "").replaceAll("=", "").replaceAll("\"", "").replace("/", "").replaceAll(" ", "");
 				}
 				if(elem.startsWith("<Stop ")) {
-					int count = 1;
-					String name = elem.replaceAll("Stop", "").replaceAll("name", "").replaceAll("<", "").replaceAll(">", "").replaceAll("=", "").replaceAll("\"", "");
+					String name = "-1";
+					double lon = 0;
+					double lat = 0;
 					ArrayList<Integer> stopl = new ArrayList<Integer>();
+					int count = 1;
+					String[] param = elem.split("\"");
+					for(int p = 0; p<param.length; p++) {
+						param[p].replaceAll("Stop", "").replaceAll("name", "").replaceAll("<", "").replaceAll(">", "").replaceAll("=", "").replaceAll("\"", "");
+						if(param[p].equalsIgnoreCase("<Stop name=")) {
+							name = param[p+1];
+						}else if(param[p].trim().equalsIgnoreCase("lat=")) {
+							lat = Double.parseDouble(param[p+1]);
+						}else if(param[p].trim().equalsIgnoreCase("lon=")) {
+							lon = Double.parseDouble(param[p+1]);
+						}
+					}
+					
 					while(!list.get(i + count).equalsIgnoreCase("</Stop>")) {
 						String s_stop = list.get(i + count).replaceAll("Schedule", "").replaceAll("hour", "").replaceAll("<", "").replaceAll(">", "").replaceAll("=", "").replaceAll("\"", "").replace("/", "").replaceAll(" ", "");
 						stopl.add(Integer.valueOf(s_stop));
 						count++;
 					}
-					currentlist.add(new Stop(name, stopl));
+					currentlist.add(new Stop(name,lon,lat,stopl));
 				}
 				if(elem.startsWith("</StopList>")) {
 					currentlist = stoplist_reverse;
