@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<Line linenumber="3">
+	<StopList start="Mairie Taden" end="La Nourais">
+		<Stop name="Mairie Taden" lat="48.4743474" lon="-2.0185782">
+			<Schedule hour="420"/>
+			<Schedule hour="494"/>
+			<Schedule hour="568"/>
+			<Schedule hour="642"/>
+			<Schedule hour="716"/>
+			<Schedule hour="790"/>
+			<Schedule hour="864"/>
+			<Schedule hour="938"/>
+			<Schedule hour="1012"/>
+			<Schedule hour="1086"/>
+			<Schedule hour="1160"/>
+		</Stop>
+		
+		<Stop name="Ecole Taden" lat="48.4756957" lon="-2.0205294">
+			<Schedule hour="422"/>
+			<Schedule hour="496"/>
+			<Schedule hour="570"/>
+			<Schedule hour="644"/>
+			<Schedule hour="718"/>
+			<Schedule hour="792"/>
+			<Schedule hour="866"/>
+			<Schedule hour="940"/>
+			<Schedule hour="1014"/>
+			<Schedule hour="1088"/>
+			<Schedule hour="1162"/>
+		</Stop>
+		
+		<Stop name="Dombriand" lat="48.4805736" lon="-2.0413301">
+			<Schedule hour="424"/>
+			<Schedule hour="498"/>
+			<Schedule hour="572"/>
+			<Schedule hour="646"/>
+			<Schedule hour="720"/>
+			<Schedule hour="794"/>
+			<Schedule hour="868"/>
+			<Schedule hour="942"/>
+			<Schedule hour="1016"/>
+			<Schedule hour="1090"/>
+			<Schedule hour="1164"/>
+		</Stop>
+		
+		<Stop name="Les Champs Blancs" lat="48.4753014" lon="-2.0428522">
+			<Schedule hour="426"/>
+			<Schedule hour="500"/>
+			<Schedule hour="574"/>
+			<Schedule hour="648"/>
+			<Schedule hour="722"/>
+			<Schedule hour="796"/>
+			<Schedule hour="870"/>
+			<Schedule hour="944"/>
+			<Schedule hour="1018"/>
+			<Schedule hour="1092"/>
+			<Schedule hour="1166"/>
+		</Stop>
+		
+		<Stop name="La Pâquenais" lat="48.4714571" lon="-2.0438744">
+			<Schedule hour="427"/>
+			<Schedule hour="501"/>
+			<Schedule hour="575"/>
+			<Schedule hour="649"/>
+			<Schedule hour="723"/>
+			<Schedule hour="797"/>
+			<Schedule hour="871"/>
+			<Schedule hour="945"/>
+			<Schedule hour="1019"/>
+			<Schedule hour="1093"/>
+			<Schedule hour="1167"/>
+		</Stop>
+		
+		<Stop name="Le Domaine" lat="48.4682032" lon="-2.0479648">
+			<Schedule hour="429"/>
+			<Schedule hour="503"/>
+			<Schedule hour="577"/>
+			<Schedule hour="651"/>
+			<Schedule hour="725"/>
+			<Schedule hour="799"/>
+			<Schedule hour="873"/>
+			<Schedule hour="947"/>
+			<Schedule hour="1021"/>
+			<Schedule hour="1095"/>
+			<Schedule hour="1169"/>
+		</Stop>
+		
+		<Stop name="EREA" lat="48.4656189" lon="-2.0495745">
+			<Schedule hour="430"/>
+			<Schedule hour="504"/>
+			<Schedule hour="578"/>
+			<Schedule hour="652"/>
+			<Schedule hour="726"/>
+			<Schedule hour="800"/>
+			<Schedule hour="874"/>
+			<Schedule hour="948"/>
+			<Schedule hour="1022"/>
+			<Schedule hour="1096"/>
+			<Schedule hour="1170"/>
+		</Stop>
+		
+		<Stop name="Les Alleux" lat="48.4662196" lon="-2.0536481">
+			<Schedule hour="432"/>
+			<Schedule hour="506"/>
+			<Schedule hour="580"/>
+			<Schedule hour="654"/>
+			<Schedule hour="728"/>
+			<Schedule hour="802"/>
+			<Schedule hour="876"/>
+			<Schedule hour="950"/>
+			<Schedule hour="1024"/>
+			<Schedule hour="1098"/>
+			<Schedule hour="1172"/>
+		</Stop>
+		
+		<Stop name="L'Émeraude" lat="48.4653081" lon="-2.0583607">
+			<Schedule hour="433"/>
+			<Schedule hour="507"/>
+			<Schedule hour="581"/>
+			<Schedule hour="655"/>
+			<Schedule hour="729"/>
+			<Schedule hour="803"/>
+			<Schedule hour="877"/>
+			<Schedule hour="951"/>
+			<Schedule hour="1025"/>
+			<Schedule hour="1099"/>
+			<Schedule hour="1173"/>
+		</Stop>
+		
+		<Stop name="Cap Ouest (Le Poulichot)" lat="48.4618118" lon="-2.0582843">
+			<Schedule hour="434"/>
+			<Schedule hour="508"/>
+			<Schedule hour="582"/>
+			<Schedule hour="656"/>
+			<Schedule hour="730"/>
+			<Schedule hour="804"/>
+			<Schedule hour="878"/>
+			<Schedule hour="952"/>
+			<Schedule hour="1026"/>
+			<Schedule hour="1100"/>
+			<Schedule hour="1174"/>
+		</Stop>
+		
+		<Stop name="Stade" lat="48.4589975" lon="-2.0559145">
+			<Schedule hour="435"/>
+			<Schedule hour="509"/>
+			<Schedule hour="583"/>
+			<Schedule hour="657"/>
+			<Schedule hour="731"/>
+			<Schedule hour="805"/>
+			<Schedule hour="879"/>
+			<Schedule hour="953"/>
+			<Schedule hour="1027"/>
+			<Schedule hour="1101"/>
+			<Schedule hour="1175"/>
+		</Stop>
+		
+		<Stop name="Gare SNCF" lat="48.4565909" lon="-2.0524975">
+			<Schedule hour="436"/>
+			<Schedule hour="510"/>
+			<Schedule hour="584"/>
+			<Schedule hour="658"/>
+			<Schedule hour="732"/>
+			<Schedule hour="806"/>
+			<Schedule hour="880"/>
+			<Schedule hour="954"/>
+			<Schedule hour="1028"/>
+			<Schedule hour="1102"/>
+			<Schedule hour="1176"/>
+		</Stop>
+		
+		<Stop name="Carnot" lat="48.4562258" lon="-2.0497863">
+			<Schedule hour="437"/>
+			<Schedule hour="511"/>
+			<Schedule hour="585"/>
+			<Schedule hour="659"/>
+			<Schedule hour="733"/>
+			<Schedule hour="807"/>
+			<Schedule hour="881"/>
+			<Schedule hour="955"/>
+			<Schedule hour="1029"/>
+			<Schedule hour="1103"/>
+			<Schedule hour="1177"/>
+		</Stop>
+		
+		<Stop name="Duclos Rolland" lat="48.4542017" lon="-2.0487624">
+			<Schedule hour="438"/>
+			<Schedule hour="512"/>
+			<Schedule hour="586"/>
+			<Schedule hour="660"/>
+			<Schedule hour="734"/>
+			<Schedule hour="808"/>
+			<Schedule hour="882"/>
+			<Schedule hour="956"/>
+			<Schedule hour="1030"/>
+			<Schedule hour="1104"/>
+			<Schedule hour="1178"/>
+		</Stop>
+		
+		<Stop name="Broussais A.Briand" lat="48.4522238" lon="-2.0508563">
+			<Schedule hour="440"/>
+			<Schedule hour="514"/>
+			<Schedule hour="588"/>
+			<Schedule hour="662"/>
+			<Schedule hour="736"/>
+			<Schedule hour="810"/>
+			<Schedule hour="884"/>
+			<Schedule hour="958"/>
+			<Schedule hour="1032"/>
+			<Schedule hour="1106"/>
+			<Schedule hour="1180"/>
+		</Stop>
+		
+		<Stop name="Ker Siam" lat="48.4491122" lon="-2.0520085">
+			<Schedule hour="441"/>
+			<Schedule hour="515"/>
+			<Schedule hour="589"/>
+			<Schedule hour="663"/>
+			<Schedule hour="737"/>
+			<Schedule hour="811"/>
+			<Schedule hour="885"/>
+			<Schedule hour="959"/>
+			<Schedule hour="1033"/>
+			<Schedule hour="1107"/>
+			<Schedule hour="1181"/>
+		</Stop>
+		
+		<Stop name="Maurice Guérin" lat="48.4480469" lon="-2.0502105">
+			<Schedule hour="442"/>
+			<Schedule hour="516"/>
+			<Schedule hour="590"/>
+			<Schedule hour="664"/>
+			<Schedule hour="738"/>
+			<Schedule hour="812"/>
+			<Schedule hour="886"/>
+			<Schedule hour="960"/>
+			<Schedule hour="1034"/>
+			<Schedule hour="1108"/>
+			<Schedule hour="1182"/>
+		</Stop>
+		
+		<Stop name="Châteaubriand" lat="48.4476475" lon="-2.0465587">
+			<Schedule hour="444"/>
+			<Schedule hour="518"/>
+			<Schedule hour="592"/>
+			<Schedule hour="666"/>
+			<Schedule hour="740"/>
+			<Schedule hour="814"/>
+			<Schedule hour="888"/>
+			<Schedule hour="962"/>
+			<Schedule hour="1036"/>
+			<Schedule hour="1110"/>
+			<Schedule hour="1184"/>
+		</Stop>
+		
+		<Stop name="Hôpital" lat="48.4452005" lon="-2.0456017">
+			<Schedule hour="445"/>
+			<Schedule hour="519"/>
+			<Schedule hour="593"/>
+			<Schedule hour="667"/>
+			<Schedule hour="741"/>
+			<Schedule hour="815"/>
+			<Schedule hour="889"/>
+			<Schedule hour="963"/>
+			<Schedule hour="1037"/>
+			<Schedule hour="1111"/>
+			<Schedule hour="1185"/>
+		</Stop>
+		
+		<Stop name="Bas Bourgneuf" lat="48.4448577" lon="-2.0429846">
+			<Schedule hour="446"/>
+			<Schedule hour="520"/>
+			<Schedule hour="594"/>
+			<Schedule hour="668"/>
+			<Schedule hour="742"/>
+			<Schedule hour="816"/>
+			<Schedule hour="890"/>
+			<Schedule hour="964"/>
+			<Schedule hour="1038"/>
+			<Schedule hour="1112"/>
+			<Schedule hour="1186"/>
+		</Stop>
+		
+		<Stop name="Les Pommiers" lat="48.4416586" lon="-2.0417575">
+			<Schedule hour="447"/>
+			<Schedule hour="521"/>
+			<Schedule hour="595"/>
+			<Schedule hour="669"/>
+			<Schedule hour="743"/>
+			<Schedule hour="817"/>
+			<Schedule hour="891"/>
+			<Schedule hour="965"/>
+			<Schedule hour="1039"/>
+			<Schedule hour="1113"/>
+			<Schedule hour="1187"/>
+		</Stop>
+		
+		<Stop name="Les Granges" lat="48.4394557" lon="-2.0486092">
+			<Schedule hour="449"/>
+			<Schedule hour="523"/>
+			<Schedule hour="597"/>
+			<Schedule hour="671"/>
+			<Schedule hour="745"/>
+			<Schedule hour="819"/>
+			<Schedule hour="893"/>
+			<Schedule hour="967"/>
+			<Schedule hour="1041"/>
+			<Schedule hour="1115"/>
+			<Schedule hour="1189"/>
+		</Stop>
+		
+		<Stop name="Clermont" lat="48.4372851" lon="-2.0508750">
+			<Schedule hour="451"/>
+			<Schedule hour="525"/>
+			<Schedule hour="599"/>
+			<Schedule hour="673"/>
+			<Schedule hour="747"/>
+			<Schedule hour="821"/>
+			<Schedule hour="895"/>
+			<Schedule hour="969"/>
+			<Schedule hour="1043"/>
+			<Schedule hour="1117"/>
+			<Schedule hour="1191"/>
+		</Stop>
+		
+		<Stop name="La Nourais" lat="48.4358665" lon="-2.0562164">
+			<Schedule hour="453"/>
+			<Schedule hour="527"/>
+			<Schedule hour="601"/>
+			<Schedule hour="675"/>
+			<Schedule hour="749"/>
+			<Schedule hour="823"/>
+			<Schedule hour="897"/>
+			<Schedule hour="971"/>
+			<Schedule hour="1045"/>
+			<Schedule hour="1119"/>
+			<Schedule hour="1193"/>
+		</Stop>
+	</StopList>
+	
+	<StopList start="La Nourais" end="Mairie Taden">
+		<Stop name="La Nourais" lat="48.4358665" lon="-2.0562164">
+			<Schedule hour="456"/>
+			<Schedule hour="530"/>
+			<Schedule hour="604"/>
+			<Schedule hour="678"/>
+			<Schedule hour="752"/>
+			<Schedule hour="826"/>
+			<Schedule hour="900"/>
+			<Schedule hour="974"/>
+			<Schedule hour="1048"/>
+			<Schedule hour="1122"/>
+			<Schedule hour="1196"/>
+		</Stop>
+			
+		<Stop name="Clermont" lat="48.4372519" lon="-2.0507402">
+			<Schedule hour="457"/>
+			<Schedule hour="532"/>
+			<Schedule hour="606"/>
+			<Schedule hour="680"/>
+			<Schedule hour="754"/>
+			<Schedule hour="828"/>
+			<Schedule hour="902"/>
+			<Schedule hour="976"/>
+			<Schedule hour="1050"/>
+			<Schedule hour="1124"/>
+			<Schedule hour="1198"/>
+		</Stop>
+			
+		<Stop name="Les Granges" lat="48.4393991" lon="-2.0485066">
+			<Schedule hour="459"/>
+			<Schedule hour="535"/>
+			<Schedule hour="609"/>
+			<Schedule hour="683"/>
+			<Schedule hour="757"/>
+			<Schedule hour="831"/>
+			<Schedule hour="905"/>
+			<Schedule hour="979"/>
+			<Schedule hour="1053"/>
+			<Schedule hour="1127"/>
+			<Schedule hour="1201"/>
+		</Stop>
+		
+		<Stop name="Les Pommiers" lat="48.4424044" lon="-2.0414618">
+			<Schedule hour="461"/>
+			<Schedule hour="537"/>
+			<Schedule hour="611"/>
+			<Schedule hour="685"/>
+			<Schedule hour="759"/>
+			<Schedule hour="833"/>
+			<Schedule hour="907"/>
+			<Schedule hour="981"/>
+			<Schedule hour="1055"/>
+			<Schedule hour="1129"/>
+			<Schedule hour="1203"/>
+		</Stop>
+		
+		<Stop name="Bas Bourgneuf" lat="48.4449096" lon="-2.0429008">
+			<Schedule hour="462"/>
+			<Schedule hour="538"/>
+			<Schedule hour="612"/>
+			<Schedule hour="686"/>
+			<Schedule hour="760"/>
+			<Schedule hour="834"/>
+			<Schedule hour="908"/>
+			<Schedule hour="982"/>
+			<Schedule hour="1056"/>
+			<Schedule hour="1130"/>
+			<Schedule hour="1204"/>
+		</Stop>
+			
+		<Stop name="Hôpital" lat="48.4452005" lon="-2.0456017">
+			<Schedule hour="464"/>
+			<Schedule hour="540"/>
+			<Schedule hour="614"/>
+			<Schedule hour="688"/>
+			<Schedule hour="762"/>
+			<Schedule hour="836"/>
+			<Schedule hour="910"/>
+			<Schedule hour="984"/>
+			<Schedule hour="1058"/>
+			<Schedule hour="1132"/>
+			<Schedule hour="1206"/>
+		</Stop>
+			
+		<Stop name="Châteaubriand" lat="48.4476664" lon="-2.0464427">
+			<Schedule hour="465"/>
+			<Schedule hour="541"/>
+			<Schedule hour="615"/>
+			<Schedule hour="689"/>
+			<Schedule hour="763"/>
+			<Schedule hour="837"/>
+			<Schedule hour="911"/>
+			<Schedule hour="985"/>
+			<Schedule hour="1059"/>
+			<Schedule hour="1133"/>
+			<Schedule hour="1207"/>
+		</Stop>
+			
+		<Stop name="Maurice Guérin" lat="48.4481326" lon="-2.0501307">
+			<Schedule hour="466"/>
+			<Schedule hour="542"/>
+			<Schedule hour="616"/>
+			<Schedule hour="690"/>
+			<Schedule hour="764"/>
+			<Schedule hour="838"/>
+			<Schedule hour="912"/>
+			<Schedule hour="986"/>
+			<Schedule hour="1060"/>
+			<Schedule hour="1134"/>
+			<Schedule hour="1208"/>
+		</Stop>
+			
+		<Stop name="Ker Siam" lat="48.4495321" lon="-2.0509216">
+			<Schedule hour="467"/>
+			<Schedule hour="543"/>
+			<Schedule hour="617"/>
+			<Schedule hour="691"/>
+			<Schedule hour="765"/>
+			<Schedule hour="839"/>
+			<Schedule hour="913"/>
+			<Schedule hour="987"/>
+			<Schedule hour="1061"/>
+			<Schedule hour="1135"/>
+			<Schedule hour="1209"/>
+		</Stop>
+			
+		<Stop name="Broussais collège" lat="48.4522680" lon="-2.0484630">
+			<Schedule hour="468"/>
+			<Schedule hour="544"/>
+			<Schedule hour="618"/>
+			<Schedule hour="692"/>
+			<Schedule hour="766"/>
+			<Schedule hour="840"/>
+			<Schedule hour="914"/>
+			<Schedule hour="988"/>
+			<Schedule hour="1062"/>
+			<Schedule hour="1136"/>
+			<Schedule hour="1210"/>
+		</Stop>
+			
+		<Stop name="Duclos esplanade" lat="48.4538902" lon="-2.0482131">
+			<Schedule hour="471"/>
+			<Schedule hour="547"/>
+			<Schedule hour="621"/>
+			<Schedule hour="695"/>
+			<Schedule hour="769"/>
+			<Schedule hour="843"/>
+			<Schedule hour="917"/>
+			<Schedule hour="991"/>
+			<Schedule hour="1065"/>
+			<Schedule hour="1139"/>
+			<Schedule hour="1213"/>
+		</Stop>
+			
+		<Stop name="Leclerc" lat="48.4563490" lon="-2.0500627">
+			<Schedule hour="472"/>
+			<Schedule hour="548"/>
+			<Schedule hour="622"/>
+			<Schedule hour="696"/>
+			<Schedule hour="770"/>
+			<Schedule hour="844"/>
+			<Schedule hour="918"/>
+			<Schedule hour="992"/>
+			<Schedule hour="1066"/>
+			<Schedule hour="1140"/>
+			<Schedule hour="1214"/>
+		</Stop>
+		
+		<Stop name="Gare SNCF" lat="48.4566087" lon="-2.0519301">
+			<Schedule hour="473"/>
+			<Schedule hour="549"/>
+			<Schedule hour="623"/>
+			<Schedule hour="697"/>
+			<Schedule hour="771"/>
+			<Schedule hour="845"/>
+			<Schedule hour="919"/>
+			<Schedule hour="993"/>
+			<Schedule hour="1067"/>
+			<Schedule hour="1141"/>
+			<Schedule hour="1215"/>
+		</Stop>
+			
+		<Stop name="Stade" lat="48.4590563" lon="-2.0558046">
+			<Schedule hour="474"/>
+			<Schedule hour="550"/>
+			<Schedule hour="624"/>
+			<Schedule hour="698"/>
+			<Schedule hour="772"/>
+			<Schedule hour="846"/>
+			<Schedule hour="920"/>
+			<Schedule hour="994"/>
+			<Schedule hour="1068"/>
+			<Schedule hour="1142"/>
+			<Schedule hour="1216"/>
+		</Stop>
+			
+		<Stop name="Cap Ouest (Le Poulichot)" lat="48.4617967" lon="-2.0580817">
+			<Schedule hour="475"/>
+			<Schedule hour="551"/>
+			<Schedule hour="625"/>
+			<Schedule hour="699"/>
+			<Schedule hour="773"/>
+			<Schedule hour="847"/>
+			<Schedule hour="921"/>
+			<Schedule hour="995"/>
+			<Schedule hour="1069"/>
+			<Schedule hour="1143"/>
+			<Schedule hour="1217"/>
+		</Stop>
+			
+		<Stop name="L'Émeraude" lat="48.4652378" lon="-2.0579651">
+			<Schedule hour="476"/>
+			<Schedule hour="552"/>
+			<Schedule hour="626"/>
+			<Schedule hour="700"/>
+			<Schedule hour="774"/>
+			<Schedule hour="848"/>
+			<Schedule hour="922"/>
+			<Schedule hour="996"/>
+			<Schedule hour="1070"/>
+			<Schedule hour="1144"/>
+			<Schedule hour="1218"/>
+		</Stop>
+			
+		<Stop name="Les Alleux" lat="48.4662196" lon="-2.0536481">
+			<Schedule hour="477"/>
+			<Schedule hour="553"/>
+			<Schedule hour="627"/>
+			<Schedule hour="701"/>
+			<Schedule hour="775"/>
+			<Schedule hour="849"/>
+			<Schedule hour="923"/>
+			<Schedule hour="997"/>
+			<Schedule hour="1071"/>
+			<Schedule hour="1145"/>
+			<Schedule hour="1219"/>
+		</Stop>
+		
+		<Stop name="EREA" lat="48.4655731" lon="-2.0494343">
+			<Schedule hour="479"/>
+			<Schedule hour="555"/>
+			<Schedule hour="629"/>
+			<Schedule hour="703"/>
+			<Schedule hour="777"/>
+			<Schedule hour="851"/>
+			<Schedule hour="925"/>
+			<Schedule hour="999"/>
+			<Schedule hour="1073"/>
+			<Schedule hour="1147"/>
+			<Schedule hour="1221"/>
+		</Stop>
+		
+		<Stop name="Le Domaine" lat="48.4681298" lon="-2.0478931">
+			<Schedule hour="480"/>
+			<Schedule hour="556"/>
+			<Schedule hour="630"/>
+			<Schedule hour="704"/>
+			<Schedule hour="778"/>
+			<Schedule hour="852"/>
+			<Schedule hour="926"/>
+			<Schedule hour="1000"/>
+			<Schedule hour="1074"/>
+			<Schedule hour="1148"/>
+			<Schedule hour="1222"/>
+		</Stop>
+		
+		<Stop name="La Pâquenais" lat="48.4710852" lon="-2.0444768">
+			<Schedule hour="482"/>
+			<Schedule hour="558"/>
+			<Schedule hour="632"/>
+			<Schedule hour="706"/>
+			<Schedule hour="780"/>
+			<Schedule hour="854"/>
+			<Schedule hour="928"/>
+			<Schedule hour="1002"/>
+			<Schedule hour="1076"/>
+			<Schedule hour="1150"/>
+			<Schedule hour="1224"/>
+		</Stop>
+		
+		<Stop name="Les Champs Blancs" lat="48.4745857" lon="-2.0428307">
+			<Schedule hour="483"/>
+			<Schedule hour="559"/>
+			<Schedule hour="633"/>
+			<Schedule hour="707"/>
+			<Schedule hour="781"/>
+			<Schedule hour="855"/>
+			<Schedule hour="929"/>
+			<Schedule hour="1003"/>
+			<Schedule hour="1077"/>
+			<Schedule hour="1151"/>
+			<Schedule hour="1225"/>
+		</Stop>
+		
+		<Stop name="Dombriand" lat="48.4804847" lon="-2.0412833">
+			<Schedule hour="485"/>
+			<Schedule hour="561"/>
+			<Schedule hour="635"/>
+			<Schedule hour="709"/>
+			<Schedule hour="783"/>
+			<Schedule hour="857"/>
+			<Schedule hour="931"/>
+			<Schedule hour="1005"/>
+			<Schedule hour="1079"/>
+			<Schedule hour="1153"/>
+			<Schedule hour="1227"/>
+		</Stop>
+		
+		<Stop name="Mairie Taden" lat="48.4743474" lon="-2.0185782">
+			<Schedule hour="489"/>
+			<Schedule hour="565"/>
+			<Schedule hour="639"/>
+			<Schedule hour="713"/>
+			<Schedule hour="787"/>
+			<Schedule hour="861"/>
+			<Schedule hour="935"/>
+			<Schedule hour="1009"/>
+			<Schedule hour="1083"/>
+			<Schedule hour="1157"/>
+			<Schedule hour="1231"/>
+		</Stop>
+	</StopList>
+</Line>
