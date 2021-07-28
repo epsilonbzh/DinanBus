@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<Line linenumber="4">
+	<StopList start="Lanvallay - Les Tilleuls" end="Lanvallay - Les Tilleuls">
+		<Stop name="Lanvallay - Les Tilleuls" lat="48.4498261" lon="-2.0259871">
+			<Schedule hour="420"/>
+			<Schedule hour="460"/>
+			<Schedule hour="510"/>
+			<Schedule hour="555"/>
+			<Schedule hour="600"/>
+			<Schedule hour="645"/>
+			<Schedule hour="690"/>
+			<Schedule hour="735"/>
+			<Schedule hour="780"/>
+			<Schedule hour="825"/>
+			<Schedule hour="870"/>
+			<Schedule hour="915"/>
+			<Schedule hour="960"/>
+			<Schedule hour="1005"/>
+			<Schedule hour="1050"/>
+			<Schedule hour="1095"/>
+			<Schedule hour="1140"/>
+		</Stop>
+		
+		<Stop name="Colombier" lat="48.4518324" lon="-2.0262326">
+			<Schedule hour="421"/>
+			<Schedule hour="461"/>
+			<Schedule hour="511"/>
+			<Schedule hour="556"/>
+			<Schedule hour="601"/>
+			<Schedule hour="646"/>
+			<Schedule hour="691"/>
+			<Schedule hour="736"/>
+			<Schedule hour="781"/>
+			<Schedule hour="826"/>
+			<Schedule hour="871"/>
+			<Schedule hour="916"/>
+			<Schedule hour="961"/>
+			<Schedule hour="1006"/>
+			<Schedule hour="1051"/>
+			<Schedule hour="1096"/>
+			<Schedule hour="1141"/>
+		</Stop>
+		
+		<Stop name="Clos des Landes" lat="48.4518399" lon="-2.0202143">
+			<Schedule hour="422"/>
+			<Schedule hour="462"/>
+			<Schedule hour="512"/>
+			<Schedule hour="557"/>
+			<Schedule hour="602"/>
+			<Schedule hour="647"/>
+			<Schedule hour="692"/>
+			<Schedule hour="737"/>
+			<Schedule hour="782"/>
+			<Schedule hour="827"/>
+			<Schedule hour="872"/>
+			<Schedule hour="917"/>
+			<Schedule hour="962"/>
+			<Schedule hour="1007"/>
+			<Schedule hour="1052"/>
+			<Schedule hour="1097"/>
+			<Schedule hour="1142"/>
+		</Stop>
+		
+		<Stop name="La Samsonnais" lat="48.4542179" lon="-2.0263325">
+			<Schedule hour="423"/>
+			<Schedule hour="463"/>
+			<Schedule hour="513"/>
+			<Schedule hour="558"/>
+			<Schedule hour="603"/>
+			<Schedule hour="648"/>
+			<Schedule hour="693"/>
+			<Schedule hour="738"/>
+			<Schedule hour="783"/>
+			<Schedule hour="828"/>
+			<Schedule hour="873"/>
+			<Schedule hour="918"/>
+			<Schedule hour="963"/>
+			<Schedule hour="1008"/>
+			<Schedule hour="1053"/>
+			<Schedule hour="1098"/>
+			<Schedule hour="1143"/>
+		</Stop>
+		
+		<Stop name="Mairie Lanvallay" lat="48.4560066" lon="-2.0282476">
+			<Schedule hour="425"/>
+			<Schedule hour="465"/>
+			<Schedule hour="515"/>
+			<Schedule hour="560"/>
+			<Schedule hour="605"/>
+			<Schedule hour="650"/>
+			<Schedule hour="695"/>
+			<Schedule hour="740"/>
+			<Schedule hour="785"/>
+			<Schedule hour="830"/>
+			<Schedule hour="875"/>
+			<Schedule hour="920"/>
+			<Schedule hour="965"/>
+			<Schedule hour="1010"/>
+			<Schedule hour="1055"/>
+			<Schedule hour="1100"/>
+			<Schedule hour="1145"/>
+		</Stop>
+		
+		<Stop name="Maison de la Rance" lat="48.4576030" lon="-2.0349705">
+			<Schedule hour="427"/>
+			<Schedule hour="467"/>
+			<Schedule hour="517"/>
+			<Schedule hour="562"/>
+			<Schedule hour="607"/>
+			<Schedule hour="652"/>
+			<Schedule hour="697"/>
+			<Schedule hour="742"/>
+			<Schedule hour="787"/>
+			<Schedule hour="832"/>
+			<Schedule hour="877"/>
+			<Schedule hour="922"/>
+			<Schedule hour="967"/>
+			<Schedule hour="1012"/>
+			<Schedule hour="1057"/>
+			<Schedule hour="1102"/>
+			<Schedule hour="1145"/>
+		</Stop>
+		
+		<Stop name="Port" lat="48.4560150" lon="-2.0377144">
+			<Schedule hour="428"/>
+			<Schedule hour="468"/>
+			<Schedule hour="518"/>
+			<Schedule hour="563"/>
+			<Schedule hour="608"/>
+			<Schedule hour="653"/>
+			<Schedule hour="698"/>
+			<Schedule hour="743"/>
+			<Schedule hour="788"/>
+			<Schedule hour="833"/>
+			<Schedule hour="878"/>
+			<Schedule hour="923"/>
+			<Schedule hour="968"/>
+			<Schedule hour="1013"/>
+			<Schedule hour="1058"/>
+			<Schedule hour="1103"/>
+			<Schedule hour="1148"/>
+		</Stop>
+		
+		<Stop name="Viaduc" lat="48.4547227" lon="-2.0390166">
+			<Schedule hour="429"/>
+			<Schedule hour="469"/>
+			<Schedule hour="519"/>
+			<Schedule hour="564"/>
+			<Schedule hour="609"/>
+			<Schedule hour="654"/>
+			<Schedule hour="699"/>
+			<Schedule hour="744"/>
+			<Schedule hour="789"/>
+			<Schedule hour="834"/>
+			<Schedule hour="879"/>
+			<Schedule hour="924"/>
+			<Schedule hour="969"/>
+			<Schedule hour="1014"/>
+			<Schedule hour="1059"/>
+			<Schedule hour="1104"/>
+			<Schedule hour="1149"/>
+		</Stop>
+		
+		<Stop name="Place Saint-Sauveur" lat="48.4533976" lon="-2.0421853">
+			<Schedule hour="433"/>
+			<Schedule hour="473"/>
+			<Schedule hour="523"/>
+			<Schedule hour="568"/>
+			<Schedule hour="613"/>
+			<Schedule hour="658"/>
+			<Schedule hour="703"/>
+			<Schedule hour="748"/>
+			<Schedule hour="793"/>
+			<Schedule hour="838"/>
+			<Schedule hour="883"/>
+			<Schedule hour="928"/>
+			<Schedule hour="973"/>
+			<Schedule hour="1018"/>
+			<Schedule hour="1063"/>
+			<Schedule hour="1108"/>
+			<Schedule hour="1153"/>
+		</Stop>
+		
+		<Stop name="Duguesclin" lat="48.4510554" lon="-2.0434464">
+			<Schedule hour="436"/>
+			<Schedule hour="476"/>
+			<Schedule hour="526"/>
+			<Schedule hour="571"/>
+			<Schedule hour="616"/>
+			<Schedule hour="661"/>
+			<Schedule hour="706"/>
+			<Schedule hour="751"/>
+			<Schedule hour="796"/>
+			<Schedule hour="841"/>
+			<Schedule hour="886"/>
+			<Schedule hour="931"/>
+			<Schedule hour="976"/>
+			<Schedule hour="1021"/>
+			<Schedule hour="1066"/>
+			<Schedule hour="1111"/>
+			<Schedule hour="1156"/>
+		</Stop>
+		
+		<Stop name="Hôtel de Ville" lat="48.4541868" lon="-2.0467783">
+			<Schedule hour="438"/>
+			<Schedule hour="478"/>
+			<Schedule hour="528"/>
+			<Schedule hour="573"/>
+			<Schedule hour="618"/>
+			<Schedule hour="663"/>
+			<Schedule hour="708"/>
+			<Schedule hour="753"/>
+			<Schedule hour="798"/>
+			<Schedule hour="843"/>
+			<Schedule hour="888"/>
+			<Schedule hour="933"/>
+			<Schedule hour="978"/>
+			<Schedule hour="1023"/>
+			<Schedule hour="1068"/>
+			<Schedule hour="1113"/>
+			<Schedule hour="1158"/>
+		</Stop>
+		
+		<Stop name="Thiers" lat="48.4559495" lon="-2.0493126">
+			<Schedule hour="440"/>
+			<Schedule hour="480"/>
+			<Schedule hour="530"/>
+			<Schedule hour="575"/>
+			<Schedule hour="620"/>
+			<Schedule hour="665"/>
+			<Schedule hour="710"/>
+			<Schedule hour="755"/>
+			<Schedule hour="800"/>
+			<Schedule hour="845"/>
+			<Schedule hour="890"/>
+			<Schedule hour="935"/>
+			<Schedule hour="980"/>
+			<Schedule hour="1025"/>
+			<Schedule hour="1070"/>
+			<Schedule hour="1115"/>
+			<Schedule hour="1160"/>
+		</Stop>
+		
+		<Stop name="Cordeliers" lat="48.4542290" lon="-2.0446922">
+			<Schedule hour="442"/>
+			<Schedule hour="482"/>
+			<Schedule hour="532"/>
+			<Schedule hour="577"/>
+			<Schedule hour="622"/>
+			<Schedule hour="667"/>
+			<Schedule hour="712"/>
+			<Schedule hour="757"/>
+			<Schedule hour="802"/>
+			<Schedule hour="847"/>
+			<Schedule hour="892"/>
+			<Schedule hour="937"/>
+			<Schedule hour="982"/>
+			<Schedule hour="1027"/>
+			<Schedule hour="1072"/>
+			<Schedule hour="1117"/>
+			<Schedule hour="1162"/>
+
+		</Stop>
+		
+		<Stop name="Saint-Sauveur Haute Voie" lat="48.4540654" lon="-2.0417699">
+			<Schedule hour="445"/>
+			<Schedule hour="485"/>
+			<Schedule hour="535"/>
+			<Schedule hour="580"/>
+			<Schedule hour="625"/>
+			<Schedule hour="670"/>
+			<Schedule hour="715"/>
+			<Schedule hour="760"/>
+			<Schedule hour="805"/>
+			<Schedule hour="850"/>
+			<Schedule hour="895"/>
+			<Schedule hour="940"/>
+			<Schedule hour="985"/>
+			<Schedule hour="1030"/>
+			<Schedule hour="1075"/>
+			<Schedule hour="1120"/>
+			<Schedule hour="1165"/>
+		</Stop>
+		
+		<Stop name="Viaduc" lat="48.4547022" lon="-2.0388933">
+			<Schedule hour="446"/>
+			<Schedule hour="486"/>
+			<Schedule hour="536"/>
+			<Schedule hour="581"/>
+			<Schedule hour="626"/>
+			<Schedule hour="671"/>
+			<Schedule hour="716"/>
+			<Schedule hour="761"/>
+			<Schedule hour="806"/>
+			<Schedule hour="851"/>
+			<Schedule hour="896"/>
+			<Schedule hour="941"/>
+			<Schedule hour="986"/>
+			<Schedule hour="1031"/>
+			<Schedule hour="1076"/>
+			<Schedule hour="1121"/>
+			<Schedule hour="1166"/>
+		</Stop>
+		
+		<Stop name="Port" lat="48.4558842" lon="-2.0375950">
+			<Schedule hour="447"/>
+			<Schedule hour="487"/>
+			<Schedule hour="537"/>
+			<Schedule hour="582"/>
+			<Schedule hour="627"/>
+			<Schedule hour="672"/>
+			<Schedule hour="717"/>
+			<Schedule hour="762"/>
+			<Schedule hour="807"/>
+			<Schedule hour="852"/>
+			<Schedule hour="897"/>
+			<Schedule hour="942"/>
+			<Schedule hour="987"/>
+			<Schedule hour="1032"/>
+			<Schedule hour="1077"/>
+			<Schedule hour="1122"/>
+			<Schedule hour="1167"/>
+		</Stop>
+		
+		<Stop name="Maison de La Rance" lat="48.4575043" lon="-2.0348364">
+			<Schedule hour="448"/>
+			<Schedule hour="488"/>
+			<Schedule hour="538"/>
+			<Schedule hour="583"/>
+			<Schedule hour="628"/>
+			<Schedule hour="673"/>
+			<Schedule hour="718"/>
+			<Schedule hour="763"/>
+			<Schedule hour="808"/>
+			<Schedule hour="853"/>
+			<Schedule hour="898"/>
+			<Schedule hour="943"/>
+			<Schedule hour="988"/>
+			<Schedule hour="1033"/>
+			<Schedule hour="1078"/>
+			<Schedule hour="1123"/>
+			<Schedule hour="1168"/>
+		</Stop>
+		
+		<Stop name="Mairie Lanvallay" lat="48.4559554" lon="-2.0284004">
+			<Schedule hour="451"/>
+			<Schedule hour="491"/>
+			<Schedule hour="541"/>
+			<Schedule hour="586"/>
+			<Schedule hour="631"/>
+			<Schedule hour="676"/>
+			<Schedule hour="721"/>
+			<Schedule hour="766"/>
+			<Schedule hour="811"/>
+			<Schedule hour="856"/>
+			<Schedule hour="901"/>
+			<Schedule hour="946"/>
+			<Schedule hour="991"/>
+			<Schedule hour="1036"/>
+			<Schedule hour="1081"/>
+			<Schedule hour="1126"/>
+			<Schedule hour="1171"/>
+		</Stop>
+		
+		<Stop name="La Samsonnais" lat="48.4541236" lon="-2.0264438">
+			<Schedule hour="453"/>
+			<Schedule hour="493"/>
+			<Schedule hour="543"/>
+			<Schedule hour="588"/>
+			<Schedule hour="633"/>
+			<Schedule hour="678"/>
+			<Schedule hour="723"/>
+			<Schedule hour="768"/>
+			<Schedule hour="813"/>
+			<Schedule hour="858"/>
+			<Schedule hour="903"/>
+			<Schedule hour="948"/>
+			<Schedule hour="993"/>
+			<Schedule hour="1038"/>
+			<Schedule hour="1083"/>
+			<Schedule hour="1128"/>
+			<Schedule hour="1173"/>
+		</Stop>
+		
+		<Stop name="Clos des Landes" lat="48.4519155" lon="-2.0202050">
+			<Schedule hour="455"/>
+			<Schedule hour="495"/>
+			<Schedule hour="545"/>
+			<Schedule hour="590"/>
+			<Schedule hour="635"/>
+			<Schedule hour="680"/>
+			<Schedule hour="725"/>
+			<Schedule hour="770"/>
+			<Schedule hour="815"/>
+			<Schedule hour="860"/>
+			<Schedule hour="905"/>
+			<Schedule hour="950"/>
+			<Schedule hour="995"/>
+			<Schedule hour="1040"/>
+			<Schedule hour="1085"/>
+			<Schedule hour="1130"/>
+			<Schedule hour="1175"/>
+		</Stop>
+		
+		<Stop name="Colombier" lat="48.4519187" lon="-2.0262165">
+			<Schedule hour="457"/>
+			<Schedule hour="497"/>
+			<Schedule hour="547"/>
+			<Schedule hour="592"/>
+			<Schedule hour="637"/>
+			<Schedule hour="682"/>
+			<Schedule hour="727"/>
+			<Schedule hour="772"/>
+			<Schedule hour="817"/>
+			<Schedule hour="862"/>
+			<Schedule hour="907"/>
+			<Schedule hour="952"/>
+			<Schedule hour="997"/>
+			<Schedule hour="1042"/>
+			<Schedule hour="1087"/>
+			<Schedule hour="1132"/>
+			<Schedule hour="1177"/>
+		</Stop>
+		
+		<Stop name="Lanvallay - Les Tilleuls" lat="48.4498261" lon="-2.0259871">
+			<Schedule hour="460"/>
+			<Schedule hour="500"/>
+			<Schedule hour="550"/>
+			<Schedule hour="595"/>
+			<Schedule hour="640"/>
+			<Schedule hour="685"/>
+			<Schedule hour="730"/>
+			<Schedule hour="775"/>
+			<Schedule hour="820"/>
+			<Schedule hour="865"/>
+			<Schedule hour="910"/>
+			<Schedule hour="955"/>
+			<Schedule hour="1000"/>
+			<Schedule hour="1045"/>
+			<Schedule hour="1090"/>
+			<Schedule hour="1135"/>
+			<Schedule hour="1180"/>
+		</Stop>
+	</StopList>
+</Line>
