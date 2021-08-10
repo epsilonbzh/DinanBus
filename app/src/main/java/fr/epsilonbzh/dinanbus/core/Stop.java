@@ -1,4 +1,4 @@
-package fr.epsilon.dinanbus.core;
+package fr.epsilonbzh.dinanbus.core;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

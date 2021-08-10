@@ -1,4 +1,4 @@
-package fr.epsilon.dinanbus.core;
+package fr.epsilonbzh.dinanbus.core;
 
 
 import java.io.BufferedReader;
