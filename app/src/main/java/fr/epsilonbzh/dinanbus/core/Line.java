@@ -1,6 +1,8 @@
 package fr.epsilonbzh.dinanbus.core;
 
 
+import android.content.Context;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -74,9 +76,9 @@ public class Line {
 	 * @param filepath to XML file
 	 * @see #parseXMLFile(String)
 	 */
-	public Line(String filepath) {
+	public Line(Context context,String filepath) {
 		if(filepath != null && filepath.length() > 0) {
-			parseXMLFile(filepath);
+			parseXMLFile(context,filepath);
 		}else {
 			throw new IllegalArgumentException("file path list can't be empty or null");
 		}
@@ -85,7 +87,7 @@ public class Line {
 	 * Extract data from an XML file to instantiate a Line object 
 	 * @param filepath path to file
 	 */
-	private void parseXMLFile(String filepath) {
+	private void parseXMLFile(Context context,String filepath) {
 		int linenumber;
 		ArrayList<Stop> currentlist;
 		ArrayList<Stop> stoplist = new ArrayList<Stop>();
@@ -93,7 +95,7 @@ public class Line {
 		currentlist = stoplist;
 		try {
 			File file = new File(filepath);
-			BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
+			BufferedReader reader = new BufferedReader(new InputStreamReader(context.getAssets().open(filepath),"UTF-8"));
 			String line;
 			String content = null;
 			//read file
