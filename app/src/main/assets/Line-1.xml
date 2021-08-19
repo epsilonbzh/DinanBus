@@ -17,7 +17,7 @@
 			<Schedule hour="1140"/>
 		</Stop>
 		
-		<Stop name="La Croix Verte" lat="48.4653223" lon="-2.0864904">
+		<Stop name="La Croix Verte" lat="48.4653223" lon="-2.0788487">
 			<Schedule hour="421"/>
 			<Schedule hour="481"/>
 			<Schedule hour="541"/>
@@ -451,7 +451,7 @@
 			<Schedule hour="1176"/>
 		</Stop>
 			
-		<Stop name="Aublette" lat="48.4473008" lon="-2.0876144">
+		<Stop name="Aublette" lat="48.4475509" lon="-2.0871691">
 			<Schedule hour="458"/>
 			<Schedule hour="518"/>
 			<Schedule hour="578"/>
