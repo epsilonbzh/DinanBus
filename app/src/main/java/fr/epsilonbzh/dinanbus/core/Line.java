@@ -5,7 +5,6 @@ import android.content.Context;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -74,7 +73,7 @@ public class Line {
 	 * Create a line object from an XML file.
 	 * The default location for files is the data folder
 	 * @param filepath to XML file
-	 * @see #parseXMLFile(String)
+	 * @see #parseXMLFile(Context,String)
 	 */
 	public Line(Context context,String filepath) {
 		if(filepath != null && filepath.length() > 0) {
@@ -162,13 +161,60 @@ public class Line {
 		this.stop_list_reverse = stoplist_reverse;
 	}
 	/**
-	 * Get a stop by index
-	 * @param index index of the ArrayList
-	 * @return the corresponding stop.
-	 * @see Stop
+	 * Get a copy of the stop list
+	 * @return stop list.
+	 * @see #stop_list
 	 */
-	public Stop getStop(int index) {
-		return stop_list.get(index);
+	public ArrayList<Stop> getStops() {
+		return (ArrayList<Stop>) stop_list.clone();
+	}
+
+	/**
+	 * Get a copy of the reverse stop list
+	 * @return reverse stop list.
+	 * @see #stop_list_reverse
+	 */
+	public ArrayList<Stop> getStopsReverse() {
+		return (ArrayList<Stop>) stop_list_reverse.clone();
+	}
+
+	/**
+	 * Give the last stop of the stop list
+	 * @return last Stop of the list.
+	 * @see #stop_list
+	 */
+	public Stop getLastStop() {
+		return stop_list.get(stop_list.size() - 1);
+	}
+	/**
+	 * Give the last stop of the reverse stop list
+	 * @return last Stop of reverse the list.
+	 * @see #stop_list_reverse
+	 */
+	public Stop getLastStopReverse() {
+		return stop_list_reverse.get(stop_list_reverse.size() - 1);
+	}
+
+	/**
+	 * Return the number of the Line
+	 * @return line number.
+	 * @see #number
+	 */
+	public int getLineNumber() {
+		return this.number;
+	}
+
+	/**
+	 * Tell if the line has a reverse stop list
+	 * @return true, if the line has a reverse stop list, false otherwise.
+	 * @see #stop_list_reverse
+	 */
+	public boolean hasReverse() {
+		if(stop_list_reverse.size() == 0) {
+			return false;
+		}else {
+			return true;
+		}
 	}
 	/**
 	 * Make a printable tab of the line containing all the stops and they schedule

@@ -114,6 +114,23 @@ public class Stop {
 		
 	}
 	/**
+	 * Printable version of getNext(), showing time in hours and minutes
+	 * @return remaining time in hours and minutes
+	 * @see #getNext()
+	 */
+	public String printNext() {
+		if(this.getNext() < 60) {
+			return this.getNext() + "min";
+		}else {
+			if(this.getNext()%60 < 10) {
+				return getNext() / 60 + "h0" + getNext() % 60 + "min";
+			}else {
+				return getNext() / 60 + "h" + getNext() % 60 + "min";
+			}
+		}
+
+	}
+	/**
 	 * Printable text containing station information
 	 */
 	@Override
