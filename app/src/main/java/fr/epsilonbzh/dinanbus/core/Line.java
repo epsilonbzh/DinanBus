@@ -1,6 +1,5 @@
 package fr.epsilonbzh.dinanbus.core;
 
-
 import android.content.Context;
 
 import java.io.BufferedReader;
@@ -20,7 +19,7 @@ import java.util.ArrayList;
 public class Line {
 	/**
 	 * This number is the identifier of the line, it must be greater than 0.
-     * A value of -1 means the XML parser could not find the data
+	 * A value of -1 means the XML parser could not find the data
 	 */
 	private int number;
 	/**
@@ -50,7 +49,7 @@ public class Line {
 			throw new IllegalArgumentException("Stop list can't be empty or null");
 		}
 	}
-	
+
 	/**
 	 * Create a two-way line object manually with a number and two lists in both directions
 	 * @param number the number of the line
@@ -83,7 +82,7 @@ public class Line {
 		}
 	}
 	/**
-	 * Extract data from an XML file to instantiate a Line object 
+	 * Extract data from an XML file to instantiate a Line object
 	 * @param filepath path to file
 	 */
 	private void parseXMLFile(Context context,String filepath) {
@@ -122,6 +121,7 @@ public class Line {
 				}
 				if(elem.startsWith("<Stop ")) {
 					String name = "-1";
+					int id = 0;
 					double lon = 0;
 					double lat = 0;
 					ArrayList<Integer> stopl = new ArrayList<Integer>();
@@ -129,7 +129,9 @@ public class Line {
 					String[] param = elem.split("\"");
 					for(int p = 0; p<param.length; p++) {
 						param[p].replaceAll("Stop", "").replaceAll("name", "").replaceAll("<", "").replaceAll(">", "").replaceAll("=", "").replaceAll("\"", "");
-						if(param[p].equalsIgnoreCase("<Stop name=")) {
+						if(param[p].equalsIgnoreCase("<Stop id=")) {
+							id = Integer.parseInt(param[p+1]);
+						}else if(param[p].trim().equalsIgnoreCase("name=")) {
 							name = param[p+1];
 						}else if(param[p].trim().equalsIgnoreCase("lat=")) {
 							lat = Double.parseDouble(param[p+1]);
@@ -137,13 +139,13 @@ public class Line {
 							lon = Double.parseDouble(param[p+1]);
 						}
 					}
-					
+
 					while(!list.get(i + count).equalsIgnoreCase("</Stop>")) {
 						String s_stop = list.get(i + count).replaceAll("Schedule", "").replaceAll("hour", "").replaceAll("<", "").replaceAll(">", "").replaceAll("=", "").replaceAll("\"", "").replace("/", "").replaceAll(" ", "");
 						stopl.add(Integer.valueOf(s_stop));
 						count++;
 					}
-					currentlist.add(new Stop(name,lon,lat,stopl));
+					currentlist.add(new Stop(id,name,lon,lat,stopl));
 				}
 				if(elem.startsWith("</StopList>")) {
 					currentlist = stoplist_reverse;
@@ -155,7 +157,7 @@ public class Line {
 		}catch (IOException e) {
 			throw new IllegalArgumentException("error during reading process");
 		}
-		
+
 		this.number = linenumber;
 		this.stop_list = stoplist;
 		this.stop_list_reverse = stoplist_reverse;

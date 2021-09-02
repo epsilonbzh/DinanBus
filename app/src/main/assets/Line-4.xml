@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>	
 <Line linenumber="4">
 	<StopList start="Lanvallay - Les Tilleuls" end="Lanvallay - Les Tilleuls">
-		<Stop name="Lanvallay - Les Tilleuls" lat="48.4498261" lon="-2.0259871">
+		<Stop id="106" name="Lanvallay - Les Tilleuls" lat="48.4498261" lon="-2.0259871">
 			<Schedule hour="420"/>
 			<Schedule hour="460"/>
 			<Schedule hour="510"/>
@@ -21,7 +21,7 @@
 			<Schedule hour="1140"/>
 		</Stop>
 		
-		<Stop name="Colombier" lat="48.4518324" lon="-2.0262326">
+		<Stop id="107" name="Colombier" lat="48.4518324" lon="-2.0262326">
 			<Schedule hour="421"/>
 			<Schedule hour="461"/>
 			<Schedule hour="511"/>
@@ -41,7 +41,7 @@
 			<Schedule hour="1141"/>
 		</Stop>
 		
-		<Stop name="Clos des Landes" lat="48.4518399" lon="-2.0202143">
+		<Stop id="108" name="Clos des Landes" lat="48.4518399" lon="-2.0202143">
 			<Schedule hour="422"/>
 			<Schedule hour="462"/>
 			<Schedule hour="512"/>
@@ -61,7 +61,7 @@
 			<Schedule hour="1142"/>
 		</Stop>
 		
-		<Stop name="La Samsonnais" lat="48.4542179" lon="-2.0263325">
+		<Stop id="109" name="La Samsonnais" lat="48.4542179" lon="-2.0263325">
 			<Schedule hour="423"/>
 			<Schedule hour="463"/>
 			<Schedule hour="513"/>
@@ -81,7 +81,7 @@
 			<Schedule hour="1143"/>
 		</Stop>
 		
-		<Stop name="Mairie Lanvallay" lat="48.4560066" lon="-2.0282476">
+		<Stop id="110" name="Mairie Lanvallay" lat="48.4560066" lon="-2.0282476">
 			<Schedule hour="425"/>
 			<Schedule hour="465"/>
 			<Schedule hour="515"/>
@@ -101,7 +101,7 @@
 			<Schedule hour="1145"/>
 		</Stop>
 		
-		<Stop name="Maison de la Rance" lat="48.4576030" lon="-2.0349705">
+		<Stop id="111" name="Maison de la Rance" lat="48.4576030" lon="-2.0349705">
 			<Schedule hour="427"/>
 			<Schedule hour="467"/>
 			<Schedule hour="517"/>
@@ -121,7 +121,7 @@
 			<Schedule hour="1145"/>
 		</Stop>
 		
-		<Stop name="Port" lat="48.4560150" lon="-2.0377144">
+		<Stop id="112" name="Port" lat="48.4560150" lon="-2.0377144">
 			<Schedule hour="428"/>
 			<Schedule hour="468"/>
 			<Schedule hour="518"/>
@@ -141,7 +141,7 @@
 			<Schedule hour="1148"/>
 		</Stop>
 		
-		<Stop name="Viaduc" lat="48.4547227" lon="-2.0390166">
+		<Stop id="113" name="Viaduc" lat="48.4547227" lon="-2.0390166">
 			<Schedule hour="429"/>
 			<Schedule hour="469"/>
 			<Schedule hour="519"/>
@@ -161,7 +161,7 @@
 			<Schedule hour="1149"/>
 		</Stop>
 		
-		<Stop name="Place Saint-Sauveur" lat="48.4533976" lon="-2.0421853">
+		<Stop id="114" name="Place Saint-Sauveur" lat="48.4533976" lon="-2.0421853">
 			<Schedule hour="433"/>
 			<Schedule hour="473"/>
 			<Schedule hour="523"/>
@@ -181,7 +181,7 @@
 			<Schedule hour="1153"/>
 		</Stop>
 		
-		<Stop name="Duguesclin" lat="48.4510554" lon="-2.0434464">
+		<Stop id="115" name="Duguesclin" lat="48.4510554" lon="-2.0434464">
 			<Schedule hour="436"/>
 			<Schedule hour="476"/>
 			<Schedule hour="526"/>
@@ -201,7 +201,7 @@
 			<Schedule hour="1156"/>
 		</Stop>
 		
-		<Stop name="Hôtel de Ville" lat="48.4541868" lon="-2.0467783">
+		<Stop id="116" name="Hôtel de Ville" lat="48.4541868" lon="-2.0467783">
 			<Schedule hour="438"/>
 			<Schedule hour="478"/>
 			<Schedule hour="528"/>
@@ -221,7 +221,7 @@
 			<Schedule hour="1158"/>
 		</Stop>
 		
-		<Stop name="Thiers" lat="48.4559495" lon="-2.0493126">
+		<Stop id="117" name="Thiers" lat="48.4559495" lon="-2.0493126">
 			<Schedule hour="440"/>
 			<Schedule hour="480"/>
 			<Schedule hour="530"/>
@@ -241,7 +241,7 @@
 			<Schedule hour="1160"/>
 		</Stop>
 		
-		<Stop name="Cordeliers" lat="48.4542290" lon="-2.0446922">
+		<Stop id="118" name="Cordeliers" lat="48.4542290" lon="-2.0446922">
 			<Schedule hour="442"/>
 			<Schedule hour="482"/>
 			<Schedule hour="532"/>
@@ -262,7 +262,7 @@
 
 		</Stop>
 		
-		<Stop name="Saint-Sauveur Haute Voie" lat="48.4540654" lon="-2.0417699">
+		<Stop id="119" name="Saint-Sauveur Haute Voie" lat="48.4540654" lon="-2.0417699">
 			<Schedule hour="445"/>
 			<Schedule hour="485"/>
 			<Schedule hour="535"/>
@@ -282,7 +282,7 @@
 			<Schedule hour="1165"/>
 		</Stop>
 		
-		<Stop name="Viaduc" lat="48.4547022" lon="-2.0388933">
+		<Stop id="120" name="Viaduc" lat="48.4547022" lon="-2.0388933">
 			<Schedule hour="446"/>
 			<Schedule hour="486"/>
 			<Schedule hour="536"/>
@@ -302,7 +302,7 @@
 			<Schedule hour="1166"/>
 		</Stop>
 		
-		<Stop name="Port" lat="48.4558842" lon="-2.0375950">
+		<Stop id="121" name="Port" lat="48.4558842" lon="-2.0375950">
 			<Schedule hour="447"/>
 			<Schedule hour="487"/>
 			<Schedule hour="537"/>
@@ -322,7 +322,7 @@
 			<Schedule hour="1167"/>
 		</Stop>
 		
-		<Stop name="Maison de La Rance" lat="48.4575043" lon="-2.0348364">
+		<Stop id="122" name="Maison de La Rance" lat="48.4575043" lon="-2.0348364">
 			<Schedule hour="448"/>
 			<Schedule hour="488"/>
 			<Schedule hour="538"/>
@@ -342,7 +342,7 @@
 			<Schedule hour="1168"/>
 		</Stop>
 		
-		<Stop name="Mairie Lanvallay" lat="48.4559554" lon="-2.0284004">
+		<Stop id="123" name="Mairie Lanvallay" lat="48.4559554" lon="-2.0284004">
 			<Schedule hour="451"/>
 			<Schedule hour="491"/>
 			<Schedule hour="541"/>
@@ -362,7 +362,7 @@
 			<Schedule hour="1171"/>
 		</Stop>
 		
-		<Stop name="La Samsonnais" lat="48.4541236" lon="-2.0264438">
+		<Stop id="124" name="La Samsonnais" lat="48.4541236" lon="-2.0264438">
 			<Schedule hour="453"/>
 			<Schedule hour="493"/>
 			<Schedule hour="543"/>
@@ -382,7 +382,7 @@
 			<Schedule hour="1173"/>
 		</Stop>
 		
-		<Stop name="Clos des Landes" lat="48.4519155" lon="-2.0202050">
+		<Stop id="125" name="Clos des Landes" lat="48.4519155" lon="-2.0202050">
 			<Schedule hour="455"/>
 			<Schedule hour="495"/>
 			<Schedule hour="545"/>
@@ -402,7 +402,7 @@
 			<Schedule hour="1175"/>
 		</Stop>
 		
-		<Stop name="Colombier" lat="48.4519187" lon="-2.0262165">
+		<Stop id="126" name="Colombier" lat="48.4519187" lon="-2.0262165">
 			<Schedule hour="457"/>
 			<Schedule hour="497"/>
 			<Schedule hour="547"/>
@@ -422,7 +422,7 @@
 			<Schedule hour="1177"/>
 		</Stop>
 		
-		<Stop name="Lanvallay - Les Tilleuls" lat="48.4498261" lon="-2.0259871">
+		<Stop id="127" name="Lanvallay - Les Tilleuls" lat="48.4498261" lon="-2.0259871">
 			<Schedule hour="460"/>
 			<Schedule hour="500"/>
 			<Schedule hour="550"/>
