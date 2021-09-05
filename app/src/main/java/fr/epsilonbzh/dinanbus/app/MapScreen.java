@@ -17,6 +17,7 @@ import org.osmdroid.views.overlay.Marker;
 
 import java.util.ArrayList;
 
+import fr.epsilonbzh.dinanbus.core.Bus;
 import fr.epsilonbzh.dinanbus.core.Line;
 import fr.epsilonbzh.dinanbus.core.Stop;
 
@@ -65,6 +66,13 @@ public class MapScreen extends AppCompatActivity {
         Line line2 = new Line(context,"Line-2.xml");
         Line line3 = new Line(context,"Line-3.xml");
         Line line4 = new Line(context,"Line-4.xml");
+
+        ArrayList<Line> line_list = new ArrayList<>();
+        line_list.add(line1);
+        line_list.add(line2);
+        line_list.add(line3);
+        line_list.add(line4);
+        Bus bus = new Bus(line_list);
 
         buildMarker(line1);
         buildMarker(line2);
