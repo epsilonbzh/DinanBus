@@ -2,13 +2,33 @@ package fr.epsilonbzh.dinanbus.core;
 
 import java.util.ArrayList;
 
+/**
+ * The Bus class groups together all the lines of the same bus provider.
+ * This allows you to do a stop search between all lines
+ * @author epsilonbzh
+ */
 public class Bus {
+    /**
+     * list of all lines of the bus service
+     * @see Line
+     */
     private final ArrayList<Line> line_list;
 
+    /**
+     * Define a bus item
+     * @param line_list list of lines
+     * @see #line_list
+     */
     public Bus(ArrayList<Line> line_list) {
         this.line_list = line_list;
     }
 
+    /**
+     * Stop with its unique identifier
+     * @param id stop identifier
+     * @return the corresponding stop
+     * @see Stop
+     */
     public Stop getStopByID(int id) {
         Stop ret = null;
         for(Line line : this.line_list) {
