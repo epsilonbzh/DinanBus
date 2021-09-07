@@ -155,7 +155,7 @@
 			<Schedule hour="1175"/>
 		</Stop>
 		
-		<Stop id="70" name="Gare SNCF" lat="48.4565909" lon="-2.0524975">
+		<Stop id="70" name="Gare SNCF" lat="48.4565909" lon="-2.0524975" link="5,33,57">
 			<Schedule hour="436"/>
 			<Schedule hour="510"/>
 			<Schedule hour="584"/>
@@ -169,7 +169,7 @@
 			<Schedule hour="1176"/>
 		</Stop>
 		
-		<Stop id="71" name="Carnot" lat="48.4562258" lon="-2.0497863">
+		<Stop id="71" name="Carnot" lat="48.4562258" lon="-2.0497863" link="41">
 			<Schedule hour="437"/>
 			<Schedule hour="511"/>
 			<Schedule hour="585"/>
@@ -323,7 +323,7 @@
 			<Schedule hour="1191"/>
 		</Stop>
 		
-		<Stop id="82" name="La Nourais" lat="48.4358665" lon="-2.0562164">
+		<Stop id="82" name="La Nourais" lat="48.4358665" lon="-2.0562164" link="19,20,83">
 			<Schedule hour="453"/>
 			<Schedule hour="527"/>
 			<Schedule hour="601"/>
@@ -339,7 +339,7 @@
 	</StopList>
 	
 	<StopList start="La Nourais" end="Mairie Taden">
-		<Stop id="83" name="La Nourais" lat="48.4358665" lon="-2.0562164">
+		<Stop id="83" name="La Nourais" lat="48.4358665" lon="-2.0562164" link="19,20,82">
 			<Schedule hour="456"/>
 			<Schedule hour="530"/>
 			<Schedule hour="604"/>
@@ -493,7 +493,7 @@
 			<Schedule hour="1213"/>
 		</Stop>
 			
-		<Stop id="94" name="Leclerc" lat="48.4563490" lon="-2.0500627">
+		<Stop id="94" name="Leclerc" lat="48.4563490" lon="-2.0500627" link="56">
 			<Schedule hour="472"/>
 			<Schedule hour="548"/>
 			<Schedule hour="622"/>
@@ -507,7 +507,7 @@
 			<Schedule hour="1214"/>
 		</Stop>
 		
-		<Stop id="95" name="Gare SNCF" lat="48.4566087" lon="-2.0519301">
+		<Stop id="95" name="Gare SNCF" lat="48.4566087" lon="-2.0519301" link="40">
 			<Schedule hour="473"/>
 			<Schedule hour="549"/>
 			<Schedule hour="623"/>

@@ -74,7 +74,7 @@ public class Line {
 	 * @param filepath to XML file
 	 * @see #parseXMLFile(Context,String)
 	 */
-	public Line(Context context,String filepath) {
+	public Line(Context context, String filepath) {
 		if(filepath != null && filepath.length() > 0) {
 			parseXMLFile(context,filepath);
 		}else {
@@ -124,6 +124,7 @@ public class Line {
 					int id = 0;
 					double lon = 0;
 					double lat = 0;
+					ArrayList<Integer> links = new ArrayList<>();
 					ArrayList<Integer> stopl = new ArrayList<Integer>();
 					int count = 1;
 					String[] param = elem.split("\"");
@@ -137,6 +138,10 @@ public class Line {
 							lat = Double.parseDouble(param[p+1]);
 						}else if(param[p].trim().equalsIgnoreCase("lon=")) {
 							lon = Double.parseDouble(param[p+1]);
+						}else if(param[p].trim().equalsIgnoreCase("link=")) {
+							for(String linksElem : param[p+1].split(",")) {
+								links.add(Integer.parseInt(linksElem));
+							}
 						}
 					}
 
@@ -145,7 +150,7 @@ public class Line {
 						stopl.add(Integer.valueOf(s_stop));
 						count++;
 					}
-					currentlist.add(new Stop(id,name,lon,lat,stopl));
+					currentlist.add(new Stop(id,name,lon,lat,stopl,links));
 				}
 				if(elem.startsWith("</StopList>")) {
 					currentlist = stoplist_reverse;

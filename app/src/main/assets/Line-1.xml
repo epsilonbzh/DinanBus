@@ -65,7 +65,7 @@
 			<Schedule hour="1144"/>
 		</Stop>
 		
-		<Stop id="4" name="Stade" lat="48.4589975" lon="-2.0559145">
+		<Stop id="4" name="Stade" lat="48.4589975" lon="-2.0559145" link="69">
 			<Schedule hour="425"/>
 			<Schedule hour="485"/>
 			<Schedule hour="545"/>
@@ -81,7 +81,7 @@
 			<Schedule hour="1145"/>
 		</Stop>
 		
-		<Stop id="5" name="Gare SNCF" lat="48.4565909" lon="-2.0524975">
+		<Stop id="5" name="Gare SNCF" lat="48.4565909" lon="-2.0524975" link="33,57,70">
 			<Schedule hour="426"/>
 			<Schedule hour="486"/>
 			<Schedule hour="546"/>
@@ -97,7 +97,7 @@
 			<Schedule hour="1146"/>
 		</Stop>
 		
-		<Stop id="6" name="Deroyer" lat="48.4564544" lon="-2.0558378">
+		<Stop id="6" name="Deroyer" lat="48.4564544" lon="-2.0558378" link="39,58">
 			<Schedule hour="428"/>
 			<Schedule hour="488"/>
 			<Schedule hour="548"/>
@@ -305,7 +305,7 @@
 			<Schedule hour="1164"/>
 		</Stop>
 		
-		<Stop id="19" name="La Nourais" lat="48.4358665" lon="-2.0562164">
+		<Stop id="19" name="La Nourais" lat="48.4358665" lon="-2.0562164" link="20,82,83">
 			<Schedule hour="446"/>
 			<Schedule hour="506"/>
 			<Schedule hour="566"/>
@@ -323,7 +323,7 @@
 	</StopList>
 	
 	<StopList start="La Nourais" end="Bourg Quévert">
-		<Stop id="20" name="La Nourais" lat="48.4358665" lon="-2.0562164">
+		<Stop id="20" name="La Nourais" lat="48.4358665" lon="-2.0562164" link="19,82,83">
 			<Schedule hour="449"/>
 			<Schedule hour="509"/>
 			<Schedule hour="569"/>
@@ -531,7 +531,7 @@
 			<Schedule hour="1182"/>
 		</Stop>
 			
-		<Stop id="33" name="Gare SNCF" lat="48.4565909" lon="-2.0524975">
+		<Stop id="33" name="Gare SNCF" lat="48.4565909" lon="-2.0524975" link="5,57,70">
 			<Schedule hour="466"/>
 			<Schedule hour="526"/>
 			<Schedule hour="586"/>
@@ -547,7 +547,7 @@
 			<Schedule hour="1186"/>
 		</Stop>
 			
-		<Stop id="34" name="Stade" lat="48.4590563" lon="-2.0558046">
+		<Stop id="34" name="Stade" lat="48.4590563" lon="-2.0558046" link="96">
 			<Schedule hour="467"/>
 			<Schedule hour="527"/>
 			<Schedule hour="587"/>

@@ -31,6 +31,9 @@ public class Stop {
 	 * Example: 7h20 = 440 min
 	 */
 	private ArrayList<Integer> schedule_list;
+
+	private ArrayList<Integer> links;
+
 	/**
 	 * Create a Stop with the id,name, latitude, longitude, and the list of bus station
 	 * @param id identifier of the stop
@@ -44,7 +47,7 @@ public class Stop {
 	 * @see #lon
 	 * @see #schedule_list
 	 */
-	public Stop(int id,String name, double lat, double lon,ArrayList<Integer> schedule_list) {
+	public Stop(int id,String name, double lat, double lon,ArrayList<Integer> schedule_list,ArrayList<Integer> links) {
 		this.id = Math.abs(id);
 		if(name != null && name.length() > 0) {
 			this.name = name;
@@ -59,6 +62,10 @@ public class Stop {
 			this.schedule_list = schedule_list;
 		}else {
 			throw new IllegalArgumentException("Schedule list can't be empty or null");
+		}
+
+		if(links != null) {
+			this.links = links;
 		}
 	}
 	/**
@@ -129,6 +136,36 @@ public class Stop {
 		}
 
 	}
+
+	/**
+	 * Tell if the stop has links
+	 * @return True if the stop has at least one link, false otherwise
+	 */
+	public boolean hasLinks() {
+		if(links.size() == 0) {
+			return false;
+		}else {
+			return true;
+		}
+	}
+
+	/**
+	 * Give all the link related to this stop
+	 * @param bus other lines entry
+	 * @return links of the stop
+	 */
+	public ArrayList<Stop> getLinks(Bus bus) {
+		if(hasLinks() == false) {
+			throw new RuntimeException("getLinks : This stop haven't got any links");
+		}else {
+			ArrayList<Stop> result = new ArrayList<>();
+			for(int ids : this.links) {
+				result.add(bus.getStopByID(ids));
+			}
+			return result;
+		}
+	}
+
 	/**
 	 * Printable version of getNext(), showing time in hours and minutes
 	 * @return remaining time in hours and minutes

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>	
 <Line linenumber="2">
 	<StopList start="Deroyer" end="Deroyer">
-		<Stop id="39" name="Deroyer" lat="48.4564544" lon="-2.0558378">
+		<Stop id="39" name="Deroyer" lat="48.4564544" lon="-2.0558378" link="6,58">
 			<Schedule hour="430"/>
 			<Schedule hour="460"/>
 			<Schedule hour="490"/>
@@ -30,7 +30,7 @@
 			<Schedule hour="1180"/>
 		</Stop>
 		
-		<Stop id="40" name="Gare SNCF" lat="48.4565909" lon="-2.0524975">
+		<Stop id="40" name="Gare SNCF" lat="48.4565909" lon="-2.0524975" link="95">
 			<Schedule hour="431"/>
 			<Schedule hour="461"/>
 			<Schedule hour="491"/>
@@ -59,7 +59,7 @@
 			<Schedule hour="1181"/>
 		</Stop>
 		
-		<Stop id="41" name="Carnot" lat="48.4562258" lon="-2.0497863">
+		<Stop id="41" name="Carnot" lat="48.4562258" lon="-2.0497863" link="71">
 			<Schedule hour="432"/>
 			<Schedule hour="462"/>
 			<Schedule hour="492"/>
@@ -494,7 +494,7 @@
 			<Schedule hour="1201"/>
 		</Stop>
 		
-		<Stop id="56" name="Leclerc" lat="48.4563490" lon="-2.0500627">
+		<Stop id="56" name="Leclerc" lat="48.4563490" lon="-2.0500627" link="94">
 			<Schedule hour="453"/>
 			<Schedule hour="483"/>
 			<Schedule hour="513"/>
@@ -523,7 +523,7 @@
 			<Schedule hour="1203"/>
 		</Stop>
 		
-		<Stop id="57" name="Gare SNCF" lat="48.4566087" lon="-2.0519301">
+		<Stop id="57" name="Gare SNCF" lat="48.4566087" lon="-2.0519301" link="5,33,70">
 			<Schedule hour="454"/>
 			<Schedule hour="484"/>
 			<Schedule hour="514"/>
@@ -552,7 +552,7 @@
 			<Schedule hour="1204"/>
 		</Stop>
 		
-		<Stop id="58" name="Deroyer" lat="48.4564544" lon="-2.0558378">
+		<Stop id="58" name="Deroyer" lat="48.4564544" lon="-2.0558378" link="6,39">
 			<Schedule hour="455"/>
 			<Schedule hour="485"/>
 			<Schedule hour="515"/>
