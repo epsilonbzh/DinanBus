@@ -1,5 +1,6 @@
 package fr.epsilonbzh.dinanbus.core;
 
+
 import java.util.ArrayList;
 
 /**
@@ -21,6 +22,46 @@ public class Bus {
      */
     public Bus(ArrayList<Line> line_list) {
         this.line_list = line_list;
+    }
+
+    /**
+     * Get a line from the Line list
+     * @param index index of the line
+     * @return the line
+     * @see #line_list
+     */
+    public Line getLine(int index) {
+        return this.line_list.get(index);
+    }
+
+    /**
+     * Separate stops with same coordinates
+     */
+    public void fixLinesWithSameCoordinates() {
+        for(Line line : this.line_list) {
+            for(Stop stop : line.getStops()) {
+                if(stop.hasLinks()) {
+                    int id = stop.getID();
+                    for(Stop links  : stop.getLinks(this)) {
+                        if(id < links.getID()) {
+                            links.setLat(links.getLat() + 0.0000100);
+                        }
+                    }
+                }
+            }
+            if(line.hasReverse()) {
+                for (Stop stop : line.getStopsReverse()) {
+                    if (stop.hasLinks()) {
+                        int id = stop.getID();
+                        for (Stop links : stop.getLinks(this)) {
+                            if (id < links.getID()) {
+                                links.setLat(links.getLat() + 0.0000100);
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
     /**

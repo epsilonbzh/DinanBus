@@ -104,6 +104,22 @@ public class Stop {
 		return this.lon;
 	}
 	/**
+	 * Change the station's Latitude
+	 * @param lat the new latitude
+	 * @see #lat
+	 */
+	public void setLat(double lat) {
+		this.lat = lat;
+	}
+	/**
+	 * Change the station's Longitude
+	 * @param lon the new latitude
+	 * @see #lon
+	 */
+	public void setLon(double lon) {
+		this.lon = lon;
+	}
+	/**
 	 * Get schedules
 	 * @return schedules
 	 * @see #schedule_list

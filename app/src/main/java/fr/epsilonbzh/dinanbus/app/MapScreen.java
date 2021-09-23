@@ -74,6 +74,13 @@ public class MapScreen extends AppCompatActivity {
         line_list.add(line4);
         Bus bus = new Bus(line_list);
 
+        bus.fixLinesWithSameCoordinates();
+
+        line1 = bus.getLine(0);
+        line2 = bus.getLine(1);
+        line3 = bus.getLine(2);
+        line4 = bus.getLine(3);
+
         buildMarker(line1);
         buildMarker(line2);
         buildMarker(line3);
