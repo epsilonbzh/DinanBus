@@ -81,7 +81,7 @@
 			<Schedule hour="1145"/>
 		</Stop>
 		
-		<Stop id="5" name="Gare SNCF" lat="48.4565909" lon="-2.0524975" link="33,57,70">
+		<Stop id="5" name="Gare SNCF" lat="48.4565909" lon="-2.0524975" link="33,40,70">
 			<Schedule hour="426"/>
 			<Schedule hour="486"/>
 			<Schedule hour="546"/>
@@ -531,7 +531,7 @@
 			<Schedule hour="1182"/>
 		</Stop>
 			
-		<Stop id="33" name="Gare SNCF" lat="48.4565909" lon="-2.0524975" link="5,57,70">
+		<Stop id="33" name="Gare SNCF" lat="48.4565909" lon="-2.0524975" link="5,40,70">
 			<Schedule hour="466"/>
 			<Schedule hour="526"/>
 			<Schedule hour="586"/>
