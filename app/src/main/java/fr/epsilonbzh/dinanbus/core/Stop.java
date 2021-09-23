@@ -31,7 +31,10 @@ public class Stop {
 	 * Example: 7h20 = 440 min
 	 */
 	private ArrayList<Integer> schedule_list;
-
+	/**
+	 * Other stations with same coordinates.
+	 * This list contain ids of these stations.
+	 */
 	private ArrayList<Integer> links;
 
 	/**
@@ -140,6 +143,7 @@ public class Stop {
 	/**
 	 * Tell if the stop has links
 	 * @return True if the stop has at least one link, false otherwise
+	 * @see #links
 	 */
 	public boolean hasLinks() {
 		if(links.size() == 0) {
@@ -153,6 +157,7 @@ public class Stop {
 	 * Give all the link related to this stop
 	 * @param bus other lines entry
 	 * @return links of the stop
+	 * @see #links
 	 */
 	public ArrayList<Stop> getLinks(Bus bus) {
 		if(hasLinks() == false) {
