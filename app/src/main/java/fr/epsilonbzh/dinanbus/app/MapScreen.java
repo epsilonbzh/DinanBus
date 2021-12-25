@@ -52,7 +52,7 @@ public class MapScreen extends AppCompatActivity {
 
         //config Zoom presets
         mapController.setCenter(new GeoPoint(48.4541938, -2.0485565));
-        mapController.setZoom(20.0);
+        mapController.setZoom(15.0);
         mapView.setMinZoomLevel(15.0);
         mapView.setMaxZoomLevel(23.0);
 
