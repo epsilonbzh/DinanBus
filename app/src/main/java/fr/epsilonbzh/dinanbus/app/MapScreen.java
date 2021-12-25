@@ -48,7 +48,7 @@ public class MapScreen extends AppCompatActivity {
 
         //set source
         Configuration.getInstance().load(context, PreferenceManager.getDefaultSharedPreferences(context));
-        mapView.setTileSource(TileSourceFactory.MAPNIK);
+        mapView.setTileSource(TileSourceFactory.WIKIMEDIA);
 
         //config Zoom presets
         mapController.setCenter(new GeoPoint(48.4541938, -2.0485565));
